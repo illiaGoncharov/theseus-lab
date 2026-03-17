@@ -1,0 +1,71 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: theseus_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - theseus_net
+    # Важно: healthcheck даёт WordPress подождать, пока MySQL поднимется
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  wordpress:
+    image: wordpress:latest
+    container_name: theseus_wp
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "${WP_PORT:-8080}:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
+      WORDPRESS_DB_USER: ${MYSQL_USER}
+      WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}
+      WORDPRESS_TABLE_PREFIX: ${WP_TABLE_PREFIX:-wp_}
+      # Включаем отладку только локально — никогда не включай на проде
+      WORDPRESS_DEBUG: ${WP_DEBUG:-1}
+    entrypoint: ["/usr/local/bin/fix-dns.sh", "apache2-foreground"]
+    volumes:
+      - ./wp-content:/var/www/html/wp-content
+      - ./config/php.ini:/usr/local/etc/php/conf.d/custom.ini:ro
+      - ./config/fix-dns.sh:/usr/local/bin/fix-dns.sh:ro
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+    networks:
+      - theseus_net
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: theseus_pma
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "${PMA_PORT:-8081}:80"
+    environment:
+      PMA_HOST: db
+      PMA_USER: ${MYSQL_USER}
+      PMA_PASSWORD: ${MYSQL_PASSWORD}
+      UPLOAD_LIMIT: 64M
+    networks:
+      - theseus_net
+
+volumes:
+  db_data:
+
+networks:
+  theseus_net:
+    driver: bridge

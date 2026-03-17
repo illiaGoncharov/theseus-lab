@@ -1,0 +1,44 @@
+# Медиафайлы — их хранить в git не нужно (большие, меняются часто)
+uploads/
+
+# Кэши плагинов (W3 Total Cache, WP Super Cache, etc.)
+cache/
+w3tc-config/
+
+# Бэкапы плагинов
+backups/
+
+# Логи
+*.log
+debug.log
+
+# Composer/Node зависимости — устанавливаются локально
+vendor/
+node_modules/
+
+# Сборки темы (если будет сборщик)
+themes/theseus-lab/dist/
+themes/theseus-lab/*.min.css
+themes/theseus-lab/*.min.js
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IDE
+.idea/
+*.swp
+
+# Временные файлы плагинов безопасности
+.htaccess
+
+# Стандартные плагины — не коммитим (ставятся через WP admin или composer)
+# Раскомментируй если хочешь трекать все плагины:
+# !plugins/
+plugins/*
+!plugins/.gitkeep
+# Исключение: кастомные плагины проекта — добавляй явно через git add -f
+# или убери строку plugins/* выше
+
+# Стандартные темы WP — нам не нужны
+themes/twenty*/
