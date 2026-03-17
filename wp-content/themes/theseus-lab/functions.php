@@ -7,6 +7,7 @@
 
 defined('ABSPATH') || exit;
 
+
 /**
  * Поддержка базовых возможностей WordPress
  */
