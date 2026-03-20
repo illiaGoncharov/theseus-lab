@@ -82,22 +82,10 @@ function theseus_cleanup_head(): void {
 add_action('after_setup_theme', 'theseus_cleanup_head');
 
 /**
- * ACF — регистрация страницы настроек (если ACF установлен)
- *
- * Позволяет редактировать тексты секций из WP-админки,
- * не трогая код темы.
+ * ACF-поля привязаны к главной странице (front_page).
+ * Options Page больше не нужна — поля редактируются прямо
+ * при редактировании страницы «Главная» в WP-админке.
  */
-if (function_exists('acf_add_options_page')) {
-    acf_add_options_page([
-        'page_title' => 'Настройки сайта',
-        'menu_title' => 'Настройки сайта',
-        'menu_slug'  => 'theseus-settings',
-        'capability' => 'edit_posts',
-        'redirect'   => false,
-        'icon_url'   => 'dashicons-admin-generic',
-        'position'   => 2,
-    ]);
-}
 
 /**
  * ACF JSON — загрузка групп полей из темы
@@ -155,16 +143,19 @@ add_action('admin_post_theseus_contact', 'theseus_handle_contact_form');
 add_action('admin_post_nopriv_theseus_contact', 'theseus_handle_contact_form');
 
 /**
- * Хелпер: получить ACF-поле с фолбэком
+ * Хелпер: получить ACF-поле главной страницы с фолбэком.
  *
- * Если ACF не установлен или поле пустое — вернёт $default.
- * Это позволяет теме работать и без ACF (с дефолтными текстами).
+ * Читает данные из поста, установленного как «Главная страница»
+ * (Настройки → Чтение). Если ACF не установлен или поле пустое —
+ * возвращает $default, что позволяет теме работать без плагина.
  */
 function theseus_field(string $field_name, string $default = ''): string {
     if (function_exists('get_field')) {
-        $value = get_field($field_name, 'option');
+        $front_page_id = (int) get_option('page_on_front');
+        $post_id       = $front_page_id > 0 ? $front_page_id : 'option';
+        $value         = get_field($field_name, $post_id);
         if ($value) {
-            return esc_html($value);
+            return is_string($value) ? esc_html($value) : $default;
         }
     }
     return $default;
@@ -176,3 +167,17 @@ function theseus_field(string $field_name, string $default = ''): string {
 function theseus_field_e(string $field_name, string $default = ''): void {
     echo theseus_field($field_name, $default);
 }
+
+/**
+ * Отключаем редактор Gutenberg для страниц (page).
+ *
+ * Тема использует PHP-шаблоны, контент вводить через блоки нет смысла.
+ * Для постов (post) редактор остаётся включённым — там он может пригодиться.
+ */
+function theseus_disable_gutenberg(bool $use, string $post_type): bool {
+    if ($post_type === 'page') {
+        return false;
+    }
+    return $use;
+}
+add_filter('use_block_editor_for_post_type', 'theseus_disable_gutenberg', 10, 2);

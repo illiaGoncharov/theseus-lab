@@ -1,0 +1,241 @@
+[
+  {
+    "key": "group_expertise_page",
+    "title": "Страница услуги",
+    "fields": [
+
+      { "key": "field_exp_tab_hero", "label": "Hero", "type": "tab" },
+      { "key": "field_exp_subtitle", "label": "Лейбл (над заголовком)", "name": "exp_subtitle", "type": "text", "default_value": "Машинное зрение", "placeholder": "Машинное зрение" },
+      { "key": "field_exp_title", "label": "Заголовок (первая строка)", "name": "exp_title", "type": "text", "default_value": "Машинное", "placeholder": "Машинное" },
+      { "key": "field_exp_title_accent", "label": "Заголовок (акцент, жёлтым)", "name": "exp_title_accent", "type": "text", "default_value": "зрение", "placeholder": "зрение" },
+      { "key": "field_exp_description", "label": "Описание", "name": "exp_description", "type": "textarea", "rows": 3, "default_value": "Внедряем системы компьютерного зрения, которые анализируют видеопотоки в реальном времени, автоматизируют контроль качества и обеспечивают безопасность объектов." },
+
+      { "key": "field_exp_tab_problems", "label": "Проблемы", "type": "tab" },
+
+      { "key": "field_exp_problem_1", "label": "Проблема 1", "name": "exp_problem_1", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_problem_1_icon", "label": "Иконка (Remix Icon класс)", "name": "icon", "type": "text", "default_value": "ri-eye-off-line", "placeholder": "ri-eye-off-line" },
+        { "key": "field_exp_problem_1_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Слепые зоны в контроле качества" },
+        { "key": "field_exp_problem_1_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Ручной осмотр покрывает не более 15% продукции — дефекты проходят незамеченными и добираются до конечного потребителя." }
+      ]},
+      { "key": "field_exp_problem_2", "label": "Проблема 2", "name": "exp_problem_2", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_problem_2_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-time-line" },
+        { "key": "field_exp_problem_2_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Высокие трудозатраты" },
+        { "key": "field_exp_problem_2_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Операторы тратят до 40% рабочего времени на монотонный визуальный контроль, что ведёт к усталости и росту ошибок." }
+      ]},
+      { "key": "field_exp_problem_3", "label": "Проблема 3", "name": "exp_problem_3", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_problem_3_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-alert-line" },
+        { "key": "field_exp_problem_3_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Медленная реакция на инциденты" },
+        { "key": "field_exp_problem_3_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Без автоматического мониторинга критические события — вторжение, поломка, нарушение зон — обнаруживаются с опозданием." }
+      ]},
+      { "key": "field_exp_problem_4", "label": "Проблема 4", "name": "exp_problem_4", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_problem_4_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-bar-chart-2-line" },
+        { "key": "field_exp_problem_4_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Отсутствие аналитики потоков" },
+        { "key": "field_exp_problem_4_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Нет данных о движении людей, загрузке оборудования, плотности трафика — невозможно принимать взвешенные операционные решения." }
+      ]},
+      { "key": "field_exp_problem_5", "label": "Проблема 5", "name": "exp_problem_5", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_problem_5_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-file-damage-line" },
+        { "key": "field_exp_problem_5_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Документирование инцидентов вручную" },
+        { "key": "field_exp_problem_5_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Бумажные журналы и ручные отчёты не позволяют быстро найти нужные записи и подтвердить факты при спорных ситуациях." }
+      ]},
+      { "key": "field_exp_problem_6", "label": "Проблема 6", "name": "exp_problem_6", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_problem_6_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-team-line" },
+        { "key": "field_exp_problem_6_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Нехватка специалистов" },
+        { "key": "field_exp_problem_6_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Дефицит квалифицированных инспекторов и охранников ограничивает масштабирование операций и повышает операционный риск." }
+      ]},
+
+      { "key": "field_exp_tab_solution", "label": "Решение", "type": "tab" },
+      { "key": "field_exp_solution_headline", "label": "Заголовок секции", "name": "exp_solution_headline", "type": "text", "default_value": "Как мы решаем эти задачи" },
+      { "key": "field_exp_solution_lead", "label": "Лид-текст", "name": "exp_solution_lead", "type": "textarea", "rows": 2, "default_value": "С помощью AI анализируем видеопотоки с камер в режиме реального времени и автоматически выявляем события, отклонения и риски." },
+      { "key": "field_exp_solution_image", "label": "Изображение справа", "name": "exp_solution_image", "type": "image", "return_format": "array", "preview_size": "medium" },
+
+      { "key": "field_exp_solution_1", "label": "Решение 1", "name": "exp_solution_1", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_solution_1_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-camera-line" },
+        { "key": "field_exp_solution_1_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Подключение к существующим камерам" },
+        { "key": "field_exp_solution_1_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Система работает с любым CCTV или IP-оборудованием — не требует замены инфраструктуры." }
+      ]},
+      { "key": "field_exp_solution_2", "label": "Решение 2", "name": "exp_solution_2", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_solution_2_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-brain-line" },
+        { "key": "field_exp_solution_2_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Нейросетевое распознавание объектов" },
+        { "key": "field_exp_solution_2_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Модели YOLO и Transformer архитектур детектируют объекты, людей, дефекты и события в реальном времени." }
+      ]},
+      { "key": "field_exp_solution_3", "label": "Решение 3", "name": "exp_solution_3", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_solution_3_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-notification-4-line" },
+        { "key": "field_exp_solution_3_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Мгновенные уведомления" },
+        { "key": "field_exp_solution_3_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "При обнаружении события система автоматически отправляет алерт в Telegram, email или корпоративную систему." }
+      ]},
+      { "key": "field_exp_solution_4", "label": "Решение 4", "name": "exp_solution_4", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_solution_4_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-dashboard-3-line" },
+        { "key": "field_exp_solution_4_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Единый дашборд аналитики" },
+        { "key": "field_exp_solution_4_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Все метрики и события отображаются на одном экране с возможностью ретроспективного анализа и экспорта отчётов." }
+      ]},
+
+      { "key": "field_exp_tab_how", "label": "Как работает", "type": "tab" },
+
+      { "key": "field_exp_step_1", "label": "Шаг 1", "name": "exp_step_1", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_step_1_duration", "label": "Время / метка", "name": "duration", "type": "text", "default_value": "Постоянно" },
+        { "key": "field_exp_step_1_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Подключение к видеопотоку" },
+        { "key": "field_exp_step_1_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Сервис получает RTSP-поток с камер через сеть предприятия. Поддерживаются любые IP-камеры и видеосерверы." }
+      ]},
+      { "key": "field_exp_step_2", "label": "Шаг 2", "name": "exp_step_2", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_step_2_duration", "label": "Время / метка", "name": "duration", "type": "text", "default_value": "< 80 мс / кадр" },
+        { "key": "field_exp_step_2_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Предобработка кадра" },
+        { "key": "field_exp_step_2_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Изображение нормализуется, ресайзится и передаётся в инференс-пайплайн на GPU-сервере или edge-устройстве." }
+      ]},
+      { "key": "field_exp_step_3", "label": "Шаг 3", "name": "exp_step_3", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_step_3_duration", "label": "Время / метка", "name": "duration", "type": "text", "default_value": "Real-time" },
+        { "key": "field_exp_step_3_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Детекция и трекинг" },
+        { "key": "field_exp_step_3_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Нейросеть обнаруживает объекты, назначает ID и отслеживает траектории между кадрами через DeepSORT / ByteTrack." }
+      ]},
+      { "key": "field_exp_step_4", "label": "Шаг 4", "name": "exp_step_4", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_step_4_duration", "label": "Время / метка", "name": "duration", "type": "text", "default_value": "< 200 мс" },
+        { "key": "field_exp_step_4_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Бизнес-логика и алерты" },
+        { "key": "field_exp_step_4_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Правила срабатывают при пересечении зон, превышении порогов, появлении заданных классов объектов." }
+      ]},
+      { "key": "field_exp_step_5", "label": "Шаг 5", "name": "exp_step_5", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_step_5_duration", "label": "Время / метка", "name": "duration", "type": "text", "default_value": "Непрерывно" },
+        { "key": "field_exp_step_5_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Хранение и аналитика" },
+        { "key": "field_exp_step_5_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "События сохраняются в базу данных. Дашборд обновляется в реальном времени, отчёты формируются автоматически." }
+      ]},
+
+      { "key": "field_exp_tab_scenarios", "label": "Сценарии", "type": "tab" },
+
+      { "key": "field_exp_scenario_1", "label": "Сценарий 1", "name": "exp_scenario_1", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_scenario_1_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-shield-check-line" },
+        { "key": "field_exp_scenario_1_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Контроль доступа и безопасность" },
+        { "key": "field_exp_scenario_1_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Автоматическое обнаружение несанкционированных лиц, пересечения запрещённых зон и появления посторонних предметов." },
+        { "key": "field_exp_scenario_1_tags", "label": "Теги (через запятую)", "name": "tags", "type": "text", "default_value": "Периметр, Зоны доступа, Алерты" }
+      ]},
+      { "key": "field_exp_scenario_2", "label": "Сценарий 2", "name": "exp_scenario_2", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_scenario_2_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-focus-3-line" },
+        { "key": "field_exp_scenario_2_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Контроль качества продукции" },
+        { "key": "field_exp_scenario_2_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Детекция дефектов, царапин, деформаций и несоответствий стандарту прямо на конвейере с точностью до 97%." },
+        { "key": "field_exp_scenario_2_tags", "label": "Теги (через запятую)", "name": "tags", "type": "text", "default_value": "Инспекция, Дефекты, Конвейер" }
+      ]},
+      { "key": "field_exp_scenario_3", "label": "Сценарий 3", "name": "exp_scenario_3", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_scenario_3_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-user-follow-line" },
+        { "key": "field_exp_scenario_3_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Мониторинг сотрудников" },
+        { "key": "field_exp_scenario_3_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Контроль использования СИЗ, присутствия на рабочем месте, отслеживание нарушений охраны труда." },
+        { "key": "field_exp_scenario_3_tags", "label": "Теги (через запятую)", "name": "tags", "type": "text", "default_value": "СИЗ, Охрана труда, Присутствие" }
+      ]},
+      { "key": "field_exp_scenario_4", "label": "Сценарий 4", "name": "exp_scenario_4", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_scenario_4_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-route-line" },
+        { "key": "field_exp_scenario_4_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Анализ движения и трафика" },
+        { "key": "field_exp_scenario_4_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Подсчёт посетителей, тепловые карты трафика, загрузка зон — данные для оптимизации пространства." },
+        { "key": "field_exp_scenario_4_tags", "label": "Теги (через запятую)", "name": "tags", "type": "text", "default_value": "Heatmap, Счётчик, Зонирование" }
+      ]},
+      { "key": "field_exp_scenario_5", "label": "Сценарий 5", "name": "exp_scenario_5", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_scenario_5_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-truck-line" },
+        { "key": "field_exp_scenario_5_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Контроль транспорта и логистики" },
+        { "key": "field_exp_scenario_5_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Автоматическое распознавание номеров, контроль правил въезда и выезда, мониторинг загрузки/разгрузки." },
+        { "key": "field_exp_scenario_5_tags", "label": "Теги (через запятую)", "name": "tags", "type": "text", "default_value": "LPR, Логистика, Въезд/выезд" }
+      ]},
+      { "key": "field_exp_scenario_6", "label": "Сценарий 6", "name": "exp_scenario_6", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_scenario_6_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-settings-3-line" },
+        { "key": "field_exp_scenario_6_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Мониторинг оборудования" },
+        { "key": "field_exp_scenario_6_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Детекция нештатных состояний, перегревов, утечек, вибраций на основе визуального анализа." },
+        { "key": "field_exp_scenario_6_tags", "label": "Теги (через запятую)", "name": "tags", "type": "text", "default_value": "Предиктив, Состояние, Аварии" }
+      ]},
+
+      { "key": "field_exp_tab_industries", "label": "Отрасли", "type": "tab" },
+
+      { "key": "field_exp_industry_1", "label": "Отрасль 1", "name": "exp_industry_1", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_industry_1_title", "label": "Название", "name": "title", "type": "text", "default_value": "Промышленность" },
+        { "key": "field_exp_industry_1_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Интегрируем системы машинного зрения непосредственно в производственные линии для повышения выхода годной продукции и снижения брака." },
+        { "key": "field_exp_industry_1_bullets", "label": "Буллеты (каждый с новой строки)", "name": "bullets", "type": "textarea", "rows": 4, "default_value": "Автоматический контроль качества на линии без остановки производства\nДетекция дефектов поверхности с точностью 97%\nМониторинг выполнения технологических регламентов\nУчёт наличия и положения деталей в производственных ячейках" },
+        { "key": "field_exp_industry_1_image", "label": "Изображение", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium" }
+      ]},
+      { "key": "field_exp_industry_2", "label": "Отрасль 2", "name": "exp_industry_2", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_industry_2_title", "label": "Название", "name": "title", "type": "text", "default_value": "Строительство" },
+        { "key": "field_exp_industry_2_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Круглосуточный видеомониторинг стройплощадки для контроля соблюдения техники безопасности и хода работ." },
+        { "key": "field_exp_industry_2_bullets", "label": "Буллеты (каждый с новой строки)", "name": "bullets", "type": "textarea", "rows": 4, "default_value": "Контроль ношения касок, жилетов и других СИЗ\nОбнаружение посторонних лиц в опасных зонах\nДокументирование прогресса строительства по камерам\nАвтоматический учёт въезда и выезда спецтехники" },
+        { "key": "field_exp_industry_2_image", "label": "Изображение", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium" }
+      ]},
+      { "key": "field_exp_industry_3", "label": "Отрасль 3", "name": "exp_industry_3", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_industry_3_title", "label": "Название", "name": "title", "type": "text", "default_value": "Ритейл" },
+        { "key": "field_exp_industry_3_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Аналитика торговых залов, контроль полочного пространства и поведенческий анализ посетителей для роста конверсии." },
+        { "key": "field_exp_industry_3_bullets", "label": "Буллеты (каждый с новой строки)", "name": "bullets", "type": "textarea", "rows": 4, "default_value": "Тепловые карты движения и зон наибольшего внимания\nАвтоматический контроль наличия товаров на полке\nПодсчёт уникальных посетителей и времени в зале\nДетекция очередей и управление кассовыми потоками" },
+        { "key": "field_exp_industry_3_image", "label": "Изображение", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium" }
+      ]},
+      { "key": "field_exp_industry_4", "label": "Отрасль 4", "name": "exp_industry_4", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_industry_4_title", "label": "Название", "name": "title", "type": "text", "default_value": "Транспорт и логистика" },
+        { "key": "field_exp_industry_4_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Автоматизация контроля на транспортных узлах: склады, терминалы, парковки, пограничные зоны." },
+        { "key": "field_exp_industry_4_bullets", "label": "Буллеты (каждый с новой строки)", "name": "bullets", "type": "textarea", "rows": 4, "default_value": "LPR — распознавание номеров с точностью 99%\nУправление воротами и шлагбаумами без оператора\nКонтроль целостности пломб и состояния груза\nМониторинг загрузки складских зон в реальном времени" },
+        { "key": "field_exp_industry_4_image", "label": "Изображение", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium" }
+      ]},
+
+      { "key": "field_exp_tab_benefits", "label": "Преимущества", "type": "tab" },
+
+      { "key": "field_exp_benefit_1", "label": "Преимущество 1", "name": "exp_benefit_1", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_benefit_1_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-arrow-up-line" },
+        { "key": "field_exp_benefit_1_metric", "label": "Метрика (число)", "name": "metric", "type": "text", "default_value": "+38%" },
+        { "key": "field_exp_benefit_1_metric_label", "label": "Подпись метрики", "name": "metric_label", "type": "text", "default_value": "рост производительности" },
+        { "key": "field_exp_benefit_1_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Эффективность производства" },
+        { "key": "field_exp_benefit_1_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Автоматизация визуального контроля высвобождает сотрудников для задач с большей добавленной стоимостью." }
+      ]},
+      { "key": "field_exp_benefit_2", "label": "Преимущество 2", "name": "exp_benefit_2", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_benefit_2_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-bug-line" },
+        { "key": "field_exp_benefit_2_metric", "label": "Метрика", "name": "metric", "type": "text", "default_value": "−72%" },
+        { "key": "field_exp_benefit_2_metric_label", "label": "Подпись метрики", "name": "metric_label", "type": "text", "default_value": "снижение брака" },
+        { "key": "field_exp_benefit_2_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Качество продукции" },
+        { "key": "field_exp_benefit_2_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Нейросеть обнаруживает дефекты, незаметные человеческому глазу, до попадания продукта на следующий этап." }
+      ]},
+      { "key": "field_exp_benefit_3", "label": "Преимущество 3", "name": "exp_benefit_3", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_benefit_3_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-shield-line" },
+        { "key": "field_exp_benefit_3_metric", "label": "Метрика", "name": "metric", "type": "text", "default_value": "−61%" },
+        { "key": "field_exp_benefit_3_metric_label", "label": "Подпись метрики", "name": "metric_label", "type": "text", "default_value": "инцидентов по ОТ" },
+        { "key": "field_exp_benefit_3_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Безопасность персонала" },
+        { "key": "field_exp_benefit_3_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Мгновенная реакция на нарушения снижает травматизм и потери от простоев, связанных с несчастными случаями." }
+      ]},
+      { "key": "field_exp_benefit_4", "label": "Преимущество 4", "name": "exp_benefit_4", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_benefit_4_icon", "label": "Иконка", "name": "icon", "type": "text", "default_value": "ri-money-dollar-circle-line" },
+        { "key": "field_exp_benefit_4_metric", "label": "Метрика", "name": "metric", "type": "text", "default_value": "6–18" },
+        { "key": "field_exp_benefit_4_metric_label", "label": "Подпись метрики", "name": "metric_label", "type": "text", "default_value": "месяцев окупаемость" },
+        { "key": "field_exp_benefit_4_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "ROI внедрения" },
+        { "key": "field_exp_benefit_4_desc", "label": "Описание", "name": "description", "type": "textarea", "rows": 2, "default_value": "Экономия на ручном контроле и потерях от брака обеспечивает возврат инвестиций в течение одного-двух сезонов." }
+      ]},
+
+      { "key": "field_exp_tab_impl", "label": "Внедрение", "type": "tab" },
+
+      { "key": "field_exp_stage_1", "label": "Этап 1", "name": "exp_stage_1", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_stage_1_num", "label": "Номер (отображается крупно)", "name": "num", "type": "text", "default_value": "01" },
+        { "key": "field_exp_stage_1_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Аудит и ТЗ" },
+        { "key": "field_exp_stage_1_duration", "label": "Длительность", "name": "duration", "type": "text", "default_value": "1–2 нед." },
+        { "key": "field_exp_stage_1_tasks", "label": "Задачи (каждая с новой строки)", "name": "tasks", "type": "textarea", "rows": 3, "default_value": "Обследование объекта и инфраструктуры\nСбор требований к детекции\nСогласование метрик успеха" }
+      ]},
+      { "key": "field_exp_stage_2", "label": "Этап 2", "name": "exp_stage_2", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_stage_2_num", "label": "Номер", "name": "num", "type": "text", "default_value": "02" },
+        { "key": "field_exp_stage_2_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Сбор данных" },
+        { "key": "field_exp_stage_2_duration", "label": "Длительность", "name": "duration", "type": "text", "default_value": "2–4 нед." },
+        { "key": "field_exp_stage_2_tasks", "label": "Задачи (каждая с новой строки)", "name": "tasks", "type": "textarea", "rows": 3, "default_value": "Съёмка на объекте или подготовка датасета\nРазметка и аугментация данных\nОценка базового качества модели" }
+      ]},
+      { "key": "field_exp_stage_3", "label": "Этап 3", "name": "exp_stage_3", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_stage_3_num", "label": "Номер", "name": "num", "type": "text", "default_value": "03" },
+        { "key": "field_exp_stage_3_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Обучение модели" },
+        { "key": "field_exp_stage_3_duration", "label": "Длительность", "name": "duration", "type": "text", "default_value": "2–6 нед." },
+        { "key": "field_exp_stage_3_tasks", "label": "Задачи (каждая с новой строки)", "name": "tasks", "type": "textarea", "rows": 3, "default_value": "Fine-tuning или обучение с нуля\nВалидация на тестовой выборке\nОптимизация под целевое железо" }
+      ]},
+      { "key": "field_exp_stage_4", "label": "Этап 4", "name": "exp_stage_4", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_stage_4_num", "label": "Номер", "name": "num", "type": "text", "default_value": "04" },
+        { "key": "field_exp_stage_4_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Пилот и запуск" },
+        { "key": "field_exp_stage_4_duration", "label": "Длительность", "name": "duration", "type": "text", "default_value": "2–4 нед." },
+        { "key": "field_exp_stage_4_tasks", "label": "Задачи (каждая с новой строки)", "name": "tasks", "type": "textarea", "rows": 3, "default_value": "Развёртывание на объекте\nИнтеграция с CCTV и системами уведомлений\nСдача, документация, поддержка" }
+      ]}
+
+    ],
+    "location": [
+      [
+        {
+          "param": "page_template",
+          "operator": "==",
+          "value": "template-expertise.php"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+  }
+]

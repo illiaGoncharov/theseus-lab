@@ -103,6 +103,94 @@ document.addEventListener('DOMContentLoaded', () => {
     heroSection.addEventListener('mouseleave', onLeave);
   }
 
+  // === Expertise Hero: canvas dots + glow (страница услуги) ===
+  const expHeroSection = document.getElementById('expertise-hero');
+  const expHeroCanvas = document.getElementById('exp-hero-canvas');
+  const expHeroGlow = document.getElementById('exp-hero-glow');
+
+  if (expHeroSection && expHeroCanvas && expHeroGlow) {
+    const EXP_SPACING = 40;
+    const EXP_BASE_R = 1.5;
+    const EXP_MAX_R = 7;
+    const EXP_INFLUENCE = 140;
+
+    const expMouse = { x: -9999, y: -9999 };
+    let expDots = [];
+
+    const expBuildDots = () => {
+      const cols = Math.ceil(expHeroCanvas.offsetWidth / EXP_SPACING) + 1;
+      const rows = Math.ceil(expHeroCanvas.offsetHeight / EXP_SPACING) + 1;
+      expDots = [];
+      for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < cols; c++) {
+          expDots.push({ x: c * EXP_SPACING, y: r * EXP_SPACING, baseR: EXP_BASE_R, r: EXP_BASE_R });
+        }
+      }
+    };
+
+    const expDraw = () => {
+      const ctx = expHeroCanvas.getContext('2d');
+      if (!ctx) return;
+      ctx.clearRect(0, 0, expHeroCanvas.width, expHeroCanvas.height);
+
+      for (const dot of expDots) {
+        const dx = dot.x - expMouse.x;
+        const dy = dot.y - expMouse.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        const factor = Math.max(0, 1 - dist / EXP_INFLUENCE);
+        const targetR = dot.baseR + (EXP_MAX_R - dot.baseR) * factor * factor;
+        dot.r += (targetR - dot.r) * 0.15;
+
+        ctx.beginPath();
+        ctx.arc(dot.x, dot.y, dot.r, 0, Math.PI * 2);
+        const alpha = 0.1 + 0.35 * factor * factor;
+        ctx.fillStyle = `rgba(255,255,255,${alpha})`;
+        ctx.fill();
+      }
+
+      requestAnimationFrame(expDraw);
+    };
+
+    const expResize = () => {
+      expHeroCanvas.width = expHeroCanvas.offsetWidth;
+      expHeroCanvas.height = expHeroCanvas.offsetHeight;
+      expBuildDots();
+    };
+
+    const expOnMove = (e) => {
+      const rect = expHeroCanvas.getBoundingClientRect();
+      expMouse.x = e.clientX - rect.left;
+      expMouse.y = e.clientY - rect.top;
+      expHeroGlow.style.transition = 'none';
+      expHeroGlow.style.left = `${expMouse.x}px`;
+      expHeroGlow.style.top = `${expMouse.y}px`;
+      expHeroGlow.style.opacity = '1';
+    };
+
+    const expOnLeave = () => {
+      expMouse.x = -9999;
+      expMouse.y = -9999;
+      expHeroGlow.style.transition = 'left 1.2s ease, top 1.2s ease, opacity 1.2s ease';
+      const rect = expHeroSection.getBoundingClientRect();
+      expHeroGlow.style.left = `${rect.width * 0.75}px`;
+      expHeroGlow.style.top = `${rect.height * 0.4}px`;
+      expHeroGlow.style.opacity = '0.5';
+    };
+
+    expResize();
+    expDraw();
+
+    expHeroGlow.style.left = `${expHeroSection.offsetWidth * 0.75}px`;
+    expHeroGlow.style.top = `${expHeroSection.offsetHeight * 0.4}px`;
+    expHeroGlow.style.opacity = '0.5';
+
+    const expRo = new ResizeObserver(expResize);
+    expRo.observe(expHeroCanvas);
+
+    expHeroSection.addEventListener('mousemove', expOnMove);
+    expHeroSection.addEventListener('mouseleave', expOnLeave);
+  }
+
   // === Header shrink при скролле ===
   const header = document.querySelector('.site-header');
   if (header) {
@@ -175,6 +263,33 @@ document.addEventListener('DOMContentLoaded', () => {
       el.addEventListener('mouseleave', () => {
         processStages.forEach((s) => s.classList.remove('active'));
         progressFill.style.width = '0%';
+      });
+    });
+  }
+
+  // === Industries: переключение табов ===
+  const industryTabs = document.querySelectorAll('.exp-industries-tab');
+  const industryContents = document.querySelectorAll('.exp-industries-content');
+
+  if (industryTabs.length && industryContents.length) {
+    industryTabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const targetIdx = tab.getAttribute('data-tab');
+
+        industryTabs.forEach((t) => {
+          t.classList.remove('active');
+          const bar = t.querySelector('.exp-industries-tab-bar');
+          if (bar) bar.remove();
+        });
+
+        tab.classList.add('active');
+        const bar = document.createElement('span');
+        bar.className = 'exp-industries-tab-bar';
+        tab.appendChild(bar);
+
+        industryContents.forEach((c) => {
+          c.classList.toggle('active', c.getAttribute('data-tab-content') === targetIdx);
+        });
       });
     });
   }

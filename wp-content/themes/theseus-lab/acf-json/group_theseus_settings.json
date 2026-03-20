@@ -419,9 +419,9 @@
     "location": [
       [
         {
-          "param": "options_page",
+          "param": "page_type",
           "operator": "==",
-          "value": "theseus-settings"
+          "value": "front_page"
         }
       ]
     ],
