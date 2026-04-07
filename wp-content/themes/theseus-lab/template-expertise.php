@@ -21,6 +21,7 @@ get_header();
 <?php get_template_part('template-parts/expertise/section', 'benefits'); ?>
 <?php get_template_part('template-parts/expertise/section', 'implementation'); ?>
 <?php get_template_part('template-parts/section', 'tech'); ?>
+<?php get_template_part('template-parts/expertise/section', 'faq'); ?>
 <?php get_template_part('template-parts/section', 'cta'); ?>
 
 <?php

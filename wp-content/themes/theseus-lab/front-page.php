@@ -16,6 +16,7 @@ get_header();
 <?php get_template_part('template-parts/section', 'tech'); ?>
 <?php get_template_part('template-parts/section', 'architecture'); ?>
 <?php get_template_part('template-parts/section', 'portfolio'); ?>
+<?php get_template_part('template-parts/section', 'faq'); ?>
 <?php get_template_part('template-parts/section', 'cta'); ?>
 
 <?php

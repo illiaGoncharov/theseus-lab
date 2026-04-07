@@ -1,14 +1,14 @@
 <?php
 $fallback_solutions = [
-    ['icon' => 'ri-camera-line',         'title' => 'Подключение к существующим камерам',    'description' => 'Система работает с любым CCTV или IP-оборудованием — не требует замены инфраструктуры.'],
-    ['icon' => 'ri-brain-line',          'title' => 'Нейросетевое распознавание объектов',   'description' => 'Модели YOLO и Transformer архитектур детектируют объекты, людей, дефекты и события в реальном времени.'],
-    ['icon' => 'ri-notification-4-line', 'title' => 'Мгновенные уведомления',                'description' => 'При обнаружении события система автоматически отправляет алерт в Telegram, email или корпоративную систему.'],
-    ['icon' => 'ri-dashboard-3-line',    'title' => 'Единый дашборд аналитики',              'description' => 'Все метрики и события отображаются на одном экране с возможностью ретроспективного анализа и экспорта отчётов.'],
+    ['icon' => 'ri-camera-line',         'title' => __('Подключение к существующим камерам', 'theseus-lab'),    'description' => __('Система работает с любым CCTV или IP-оборудованием — не требует замены инфраструктуры.', 'theseus-lab')],
+    ['icon' => 'ri-brain-line',          'title' => __('Нейросетевое распознавание объектов', 'theseus-lab'),   'description' => __('Модели YOLO и Transformer архитектур детектируют объекты, людей, дефекты и события в реальном времени.', 'theseus-lab')],
+    ['icon' => 'ri-notification-4-line', 'title' => __('Мгновенные уведомления', 'theseus-lab'),                'description' => __('При обнаружении события система автоматически отправляет алерт в Telegram, email или корпоративную систему.', 'theseus-lab')],
+    ['icon' => 'ri-dashboard-3-line',    'title' => __('Единый дашборд аналитики', 'theseus-lab'),              'description' => __('Все метрики и события отображаются на одном экране с возможностью ретроспективного анализа и экспорта отчётов.', 'theseus-lab')],
 ];
 
 $fallback_image    = 'https://placehold.co/1040x840/111111/333333?text=CV+Solution';
-$fallback_headline = 'Как мы решаем эти задачи';
-$fallback_lead     = 'С помощью AI анализируем видеопотоки с камер в режиме реального времени и автоматически выявляем события, отклонения и риски.';
+$fallback_headline = __('Как мы решаем эти задачи', 'theseus-lab');
+$fallback_lead     = __('С помощью AI анализируем видеопотоки с камер в режиме реального времени и автоматически выявляем события, отклонения и риски.', 'theseus-lab');
 
 if (function_exists('get_field')) {
     $headline = get_field('exp_solution_headline') ?: $fallback_headline;
@@ -39,7 +39,7 @@ if (function_exists('get_field')) {
 <section class="section exp-solution">
     <div class="container">
         <div class="exp-solution-header reveal-item">
-            <span class="section-label">Решение</span>
+            <span class="section-label"><?php esc_html_e('Решение', 'theseus-lab'); ?></span>
             <h2 class="section-title"><?php echo esc_html($headline); ?></h2>
         </div>
 

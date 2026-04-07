@@ -1,10 +1,10 @@
 <?php
 $fallback = [
-    ['duration' => 'Постоянно',      'title' => 'Подключение к видеопотоку', 'description' => 'Сервис получает RTSP-поток с камер через сеть предприятия. Поддерживаются любые IP-камеры и видеосерверы.'],
-    ['duration' => '< 80 мс / кадр', 'title' => 'Предобработка кадра',       'description' => 'Изображение нормализуется, ресайзится и передаётся в инференс-пайплайн на GPU-сервере или edge-устройстве.'],
-    ['duration' => 'Real-time',      'title' => 'Детекция и трекинг',        'description' => 'Нейросеть обнаруживает объекты, назначает ID и отслеживает траектории между кадрами через DeepSORT / ByteTrack.'],
-    ['duration' => '< 200 мс',       'title' => 'Бизнес-логика и алерты',    'description' => 'Правила срабатывают при пересечении зон, превышении порогов, появлении заданных классов объектов.'],
-    ['duration' => 'Непрерывно',     'title' => 'Хранение и аналитика',      'description' => 'События сохраняются в базу данных. Дашборд обновляется в реальном времени, отчёты формируются автоматически.'],
+    ['duration' => __('Постоянно', 'theseus-lab'),      'title' => __('Подключение к видеопотоку', 'theseus-lab'), 'description' => __('Сервис получает RTSP-поток с камер через сеть предприятия. Поддерживаются любые IP-камеры и видеосерверы.', 'theseus-lab')],
+    ['duration' => __('< 80 мс / кадр', 'theseus-lab'), 'title' => __('Предобработка кадра', 'theseus-lab'),       'description' => __('Изображение нормализуется, ресайзится и передаётся в инференс-пайплайн на GPU-сервере или edge-устройстве.', 'theseus-lab')],
+    ['duration' => __('Real-time', 'theseus-lab'),       'title' => __('Детекция и трекинг', 'theseus-lab'),        'description' => __('Нейросеть обнаруживает объекты, назначает ID и отслеживает траектории между кадрами через DeepSORT / ByteTrack.', 'theseus-lab')],
+    ['duration' => __('< 200 мс', 'theseus-lab'),       'title' => __('Бизнес-логика и алерты', 'theseus-lab'),    'description' => __('Правила срабатывают при пересечении зон, превышении порогов, появлении заданных классов объектов.', 'theseus-lab')],
+    ['duration' => __('Непрерывно', 'theseus-lab'),      'title' => __('Хранение и аналитика', 'theseus-lab'),     'description' => __('События сохраняются в базу данных. Дашборд обновляется в реальном времени, отчёты формируются автоматически.', 'theseus-lab')],
 ];
 
 $steps = [];
@@ -23,9 +23,9 @@ if (empty($steps)) {
 <section class="section exp-how-it-works" id="how-it-works">
     <div class="container">
         <div class="exp-hiw-header reveal-item">
-            <span class="section-label">Принцип работы</span>
+            <span class="section-label"><?php esc_html_e('Принцип работы', 'theseus-lab'); ?></span>
             <h2 class="section-title">
-                Как работает<br><span class="text-muted-30">система</span>
+                <?php esc_html_e('Как работает', 'theseus-lab'); ?><br><span class="text-muted-30"><?php esc_html_e('система', 'theseus-lab'); ?></span>
             </h2>
         </div>
 

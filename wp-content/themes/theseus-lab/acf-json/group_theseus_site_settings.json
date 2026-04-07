@@ -259,6 +259,19 @@
             "mime_types": ""
         },
         {
+            "key": "field_dir1_link",
+            "label": "Направление 1 — Ссылка",
+            "name": "dir1_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "URL страницы направления, например: /mashinnoe-zrenie/",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "placeholder": "/mashinnoe-zrenie/"
+        },
+        {
             "key": "field_dir2_title",
             "label": "Направление 2 — Заголовок",
             "name": "dir2_title",
@@ -324,6 +337,19 @@
             "mime_types": ""
         },
         {
+            "key": "field_dir2_link",
+            "label": "Направление 2 — Ссылка",
+            "name": "dir2_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "URL страницы направления",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "placeholder": "/rechevye-tekhnologii/"
+        },
+        {
             "key": "field_dir3_title",
             "label": "Направление 3 — Заголовок",
             "name": "dir3_title",
@@ -387,6 +413,19 @@
             "max_height": 0,
             "max_size": 0,
             "mime_types": ""
+        },
+        {
+            "key": "field_dir3_link",
+            "label": "Направление 3 — Ссылка",
+            "name": "dir3_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "URL страницы направления",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "placeholder": "/avtomatizaciya-processov/"
         },
         {
             "key": "field_cases_tab",
@@ -492,6 +531,19 @@
             "mime_types": ""
         },
         {
+            "key": "field_case1_link",
+            "label": "Сценарий 1 — Ссылка на кейс",
+            "name": "case1_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "URL страницы кейса (CPT), например: /cases/monitoring-bezopasnosti/",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "placeholder": "/cases/..."
+        },
+        {
             "key": "field_case2_title",
             "label": "Сценарий 2 — Заголовок",
             "name": "case2_title",
@@ -555,6 +607,19 @@
             "max_height": 0,
             "max_size": 0,
             "mime_types": ""
+        },
+        {
+            "key": "field_case2_link",
+            "label": "Сценарий 2 — Ссылка на кейс",
+            "name": "case2_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "URL страницы кейса (CPT)",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "placeholder": "/cases/..."
         },
         {
             "key": "field_case3_title",
@@ -622,6 +687,19 @@
             "mime_types": ""
         },
         {
+            "key": "field_case3_link",
+            "label": "Сценарий 3 — Ссылка на кейс",
+            "name": "case3_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "URL страницы кейса (CPT)",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "placeholder": "/cases/..."
+        },
+        {
             "key": "field_case4_title",
             "label": "Сценарий 4 — Заголовок",
             "name": "case4_title",
@@ -685,6 +763,19 @@
             "max_height": 0,
             "max_size": 0,
             "mime_types": ""
+        },
+        {
+            "key": "field_case4_link",
+            "label": "Сценарий 4 — Ссылка на кейс",
+            "name": "case4_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "URL страницы кейса (CPT)",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "placeholder": "/cases/..."
         },
         {
             "key": "field_process_tab",
@@ -1101,6 +1192,155 @@
             "mime_types": ""
         },
         {
+            "key": "field_faq_tab",
+            "label": "FAQ",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_faq_title",
+            "label": "Заголовок (первая строка)",
+            "name": "faq_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": { "width": "50", "class": "", "id": "" },
+            "default_value": "Часто задаваемые",
+            "placeholder": "Часто задаваемые",
+            "maxlength": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_faq_title_accent",
+            "label": "Заголовок (акцент)",
+            "name": "faq_title_accent",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": { "width": "50", "class": "", "id": "" },
+            "default_value": "вопросы",
+            "placeholder": "вопросы",
+            "maxlength": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_faq_lead",
+            "label": "Подзаголовок",
+            "name": "faq_lead",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "Отвечаем на самые популярные вопросы о внедрении AI-систем компьютерного зрения.",
+            "rows": 2,
+            "maxlength": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_faq_1",
+            "label": "Вопрос 1",
+            "name": "faq_1",
+            "type": "group",
+            "layout": "block",
+            "sub_fields": [
+                { "key": "field_faq_1_question", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Что такое компьютерное зрение и как оно работает?" },
+                { "key": "field_faq_1_answer", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Компьютерное зрение — это направление AI, которое позволяет машинам «видеть» и интерпретировать изображения и видео. Наши системы получают видеопоток с камер, обрабатывают каждый кадр нейросетью и в реальном времени выявляют объекты, события и отклонения — без участия человека." }
+            ]
+        },
+        {
+            "key": "field_faq_2",
+            "label": "Вопрос 2",
+            "name": "faq_2",
+            "type": "group",
+            "layout": "block",
+            "sub_fields": [
+                { "key": "field_faq_2_question", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Нужно ли менять существующие камеры?" },
+                { "key": "field_faq_2_answer", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Нет. Наши решения интегрируются с любым CCTV или IP-оборудованием через стандартный RTSP-протокол. Вы сохраняете текущую инфраструктуру и просто подключаете к ней AI-аналитику." }
+            ]
+        },
+        {
+            "key": "field_faq_3",
+            "label": "Вопрос 3",
+            "name": "faq_3",
+            "type": "group",
+            "layout": "block",
+            "sub_fields": [
+                { "key": "field_faq_3_question", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Как быстро можно запустить систему?" },
+                { "key": "field_faq_3_answer", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Типовой пилотный проект занимает 6–10 недель: аудит и ТЗ (1–2 нед.), сбор и разметка данных (2–4 нед.), обучение модели и развёртывание (2–4 нед.). Сроки зависят от сложности задачи и объёма данных." }
+            ]
+        },
+        {
+            "key": "field_faq_4",
+            "label": "Вопрос 4",
+            "name": "faq_4",
+            "type": "group",
+            "layout": "block",
+            "sub_fields": [
+                { "key": "field_faq_4_question", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Какова точность детекции?" },
+                { "key": "field_faq_4_answer", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "На типовых задачах (контроль качества, СИЗ, LPR) точность составляет 93–97%. Финальные метрики фиксируются в ТЗ и проверяются на тестовой выборке перед сдачей проекта." }
+            ]
+        },
+        {
+            "key": "field_faq_5",
+            "label": "Вопрос 5",
+            "name": "faq_5",
+            "type": "group",
+            "layout": "block",
+            "sub_fields": [
+                { "key": "field_faq_5_question", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Где обрабатываются данные — в облаке или на объекте?" },
+                { "key": "field_faq_5_answer", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Мы поддерживаем оба варианта. Edge-развёртывание (на сервере или GPU-устройстве прямо на объекте) обеспечивает минимальную задержку и работу без интернета. Облачный вариант удобен для распределённых объектов и централизованной аналитики." }
+            ]
+        },
+        {
+            "key": "field_faq_6",
+            "label": "Вопрос 6",
+            "name": "faq_6",
+            "type": "group",
+            "layout": "block",
+            "sub_fields": [
+                { "key": "field_faq_6_question", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Как обеспечивается безопасность видеоданных?" },
+                { "key": "field_faq_6_answer", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Видеопоток обрабатывается локально или в изолированном облачном контуре. Мы не храним сырое видео дольше, чем требует регламент заказчика. Все данные передаются по зашифрованным каналам, доступ разграничен по ролям." }
+            ]
+        },
+        {
+            "key": "field_faq_7",
+            "label": "Вопрос 7",
+            "name": "faq_7",
+            "type": "group",
+            "layout": "block",
+            "sub_fields": [
+                { "key": "field_faq_7_question", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Можно ли интегрировать систему с нашей ERP или MES?" },
+                { "key": "field_faq_7_answer", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Да. Мы предоставляем REST API и webhook-уведомления, которые легко подключаются к SAP, 1С, любым MES/SCADA-системам. Также поддерживается экспорт событий в базы данных и BI-инструменты." }
+            ]
+        },
+        {
+            "key": "field_faq_8",
+            "label": "Вопрос 8",
+            "name": "faq_8",
+            "type": "group",
+            "layout": "block",
+            "sub_fields": [
+                { "key": "field_faq_8_question", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Каков срок окупаемости?" },
+                { "key": "field_faq_8_answer", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "По нашим проектам ROI достигается за 6–18 месяцев. Основная экономия — сокращение ручного контроля, снижение брака и потерь от инцидентов. Точный расчёт делаем бесплатно на этапе консультации." }
+            ]
+        },
+        {
             "key": "field_cta_tab",
             "label": "CTA",
             "name": "",
@@ -1235,5 +1475,5 @@
     "description": "",
     "show_in_rest": false,
     "display_title": "",
-    "modified": 1774018799
+    "modified": 1775488800
 }

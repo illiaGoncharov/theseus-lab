@@ -1,9 +1,9 @@
 <?php
 // Фолбэк-данные — используются если ACF не установлен или поля не заполнены
-$fallback_subtitle      = 'Машинное зрение';
-$fallback_title         = 'Машинное';
-$fallback_title_accent  = 'зрение';
-$fallback_description   = 'Внедряем системы компьютерного зрения, которые анализируют видеопотоки в реальном времени, автоматизируют контроль качества и обеспечивают безопасность объектов.';
+$fallback_subtitle      = __('Машинное зрение', 'theseus-lab');
+$fallback_title         = __('Машинное', 'theseus-lab');
+$fallback_title_accent  = __('зрение', 'theseus-lab');
+$fallback_description   = __('Внедряем системы компьютерного зрения, которые анализируют видеопотоки в реальном времени, автоматизируют контроль качества и обеспечивают безопасность объектов.', 'theseus-lab');
 
 if (function_exists('get_field')) {
     $subtitle     = get_field('exp_subtitle')     ?: $fallback_subtitle;
@@ -25,9 +25,9 @@ if (function_exists('get_field')) {
     <div class="container exp-hero-content-wrap">
         <!-- Breadcrumb -->
         <nav class="exp-hero-breadcrumb">
-            <a href="<?php echo esc_url(home_url('/')); ?>">Главная</a>
+            <a href="<?php echo esc_url(home_url('/')); ?>"><?php esc_html_e('Главная', 'theseus-lab'); ?></a>
             <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
-            <span>Услуги</span>
+            <span><?php esc_html_e('Услуги', 'theseus-lab'); ?></span>
             <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
             <span class="current"><?php echo esc_html($subtitle); ?></span>
         </nav>
@@ -44,8 +44,8 @@ if (function_exists('get_field')) {
                 <p class="exp-hero-desc"><?php echo esc_html($description); ?></p>
 
                 <div class="exp-hero-actions">
-                    <a href="#contact" class="btn btn-primary" data-popup="contact">Обсудить проект <i class="ri-arrow-right-line"></i></a>
-                    <a href="#how-it-works" class="btn btn-outline">Как это работает</a>
+                    <a href="#contact" class="btn btn-primary" data-popup="contact"><?php esc_html_e('Обсудить проект', 'theseus-lab'); ?> <i class="ri-arrow-right-line"></i></a>
+                    <a href="#how-it-works" class="btn btn-outline"><?php esc_html_e('Как это работает', 'theseus-lab'); ?></a>
                 </div>
             </div>
         </div>

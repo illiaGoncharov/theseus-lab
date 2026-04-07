@@ -1,0 +1,76 @@
+[
+  {
+    "key": "group_contact_page",
+    "title": "Страница контактов",
+    "fields": [
+      { "key": "field_contact_tab_info", "label": "Контактная информация", "type": "tab" },
+      {
+        "key": "field_contact_phone",
+        "label": "Телефон",
+        "name": "contact_phone",
+        "type": "text",
+        "default_value": "+7 (812) 240-81-18",
+        "placeholder": "+7 (812) 240-81-18"
+      },
+      {
+        "key": "field_contact_telegram",
+        "label": "Telegram (ссылка)",
+        "name": "contact_telegram",
+        "type": "url",
+        "default_value": "https://t.me/theseuslab"
+      },
+      {
+        "key": "field_contact_whatsapp",
+        "label": "WhatsApp (ссылка)",
+        "name": "contact_whatsapp",
+        "type": "url",
+        "default_value": "https://wa.me/78122408118"
+      },
+      {
+        "key": "field_contact_email",
+        "label": "Email",
+        "name": "contact_email",
+        "type": "email",
+        "default_value": "info@theseuslab.ru"
+      },
+      {
+        "key": "field_contact_schedule",
+        "label": "График работы",
+        "name": "contact_schedule",
+        "type": "text",
+        "default_value": "Пн–Пт: 10:00 – 18:00"
+      },
+      {
+        "key": "field_contact_address",
+        "label": "Адрес",
+        "name": "contact_address",
+        "type": "text",
+        "default_value": "Санкт-Петербург, ул. М. Говорова, 35, офис 4"
+      },
+      { "key": "field_contact_tab_map", "label": "Карта", "type": "tab" },
+      {
+        "key": "field_contact_map_iframe",
+        "label": "Карта (iframe-код)",
+        "name": "contact_map_iframe",
+        "type": "textarea",
+        "rows": 4,
+        "instructions": "Вставь сюда iframe-код из Яндекс.Карт или Google Maps. Скопировать можно: Яндекс Карты → Поделиться → Код для вставки."
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "page_template",
+          "operator": "==",
+          "value": "template-contact.php"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+  }
+]

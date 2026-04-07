@@ -219,6 +219,44 @@
         { "key": "field_exp_stage_4_title", "label": "Заголовок", "name": "title", "type": "text", "default_value": "Пилот и запуск" },
         { "key": "field_exp_stage_4_duration", "label": "Длительность", "name": "duration", "type": "text", "default_value": "2–4 нед." },
         { "key": "field_exp_stage_4_tasks", "label": "Задачи (каждая с новой строки)", "name": "tasks", "type": "textarea", "rows": 3, "default_value": "Развёртывание на объекте\nИнтеграция с CCTV и системами уведомлений\nСдача, документация, поддержка" }
+      ]},
+
+      { "key": "field_exp_tab_faq", "label": "FAQ", "type": "tab" },
+
+      { "key": "field_exp_faq_title", "label": "Заголовок секции", "name": "exp_faq_title", "type": "text", "default_value": "Вопросы о машинном зрении", "placeholder": "Вопросы о машинном зрении" },
+      { "key": "field_exp_faq_lead", "label": "Подзаголовок", "name": "exp_faq_lead", "type": "textarea", "rows": 2, "default_value": "Технические и практические вопросы о внедрении систем компьютерного зрения." },
+
+      { "key": "field_exp_faq_1", "label": "Вопрос 1", "name": "exp_faq_1", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_faq_1_q", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Какие камеры подходят для машинного зрения?" },
+        { "key": "field_exp_faq_1_a", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Подходят любые IP-камеры с RTSP-потоком: от бюджетных Hikvision/Dahua до промышленных GigE Vision. Для задач контроля качества на конвейере рекомендуем камеры с разрешением от 2 Мп и частотой от 25 fps. Мы поможем подобрать оптимальное оборудование под вашу задачу." }
+      ]},
+      { "key": "field_exp_faq_2", "label": "Вопрос 2", "name": "exp_faq_2", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_faq_2_q", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Сколько камер можно подключить к одной системе?" },
+        { "key": "field_exp_faq_2_a", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Архитектура масштабируется горизонтально. Один GPU-сервер обрабатывает 8–32 потока в зависимости от разрешения и сложности модели. Для крупных объектов разворачиваем кластер из нескольких серверов с единым дашбордом управления." }
+      ]},
+      { "key": "field_exp_faq_3", "label": "Вопрос 3", "name": "exp_faq_3", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_faq_3_q", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Как обучается модель под нашу специфику?" },
+        { "key": "field_exp_faq_3_a", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Мы собираем датасет на вашем объекте (или используем ваши архивные записи), размечаем данные и дообучаем (fine-tune) базовую модель. Для большинства задач достаточно 500–2000 размеченных примеров. Итоговая точность проверяется на отложенной тестовой выборке." }
+      ]},
+      { "key": "field_exp_faq_4", "label": "Вопрос 4", "name": "exp_faq_4", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_faq_4_q", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Что происходит, если модель ошибается?" },
+        { "key": "field_exp_faq_4_a", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Система логирует все события с уровнем уверенности. Ложные срабатывания и пропуски фиксируются и используются для дообучения модели. Мы настраиваем порог уверенности под ваш баланс между чувствительностью и специфичностью." }
+      ]},
+      { "key": "field_exp_faq_5", "label": "Вопрос 5", "name": "exp_faq_5", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_faq_5_q", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Работает ли система при плохом освещении?" },
+        { "key": "field_exp_faq_5_a", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Да. Мы применяем предобработку изображений (нормализация яркости, шумоподавление) и при необходимости рекомендуем ИК-подсветку или тепловизионные камеры. Для ночных условий обучаем модели на данных с аналогичным освещением." }
+      ]},
+      { "key": "field_exp_faq_6", "label": "Вопрос 6", "name": "exp_faq_6", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_faq_6_q", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Нужен ли постоянный интернет для работы?" },
+        { "key": "field_exp_faq_6_a", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Нет. Edge-версия системы работает полностью автономно на локальном сервере. Интернет нужен только для удалённого мониторинга дашборда и получения обновлений. Алерты могут отправляться через внутреннюю сеть предприятия." }
+      ]},
+      { "key": "field_exp_faq_7", "label": "Вопрос 7", "name": "exp_faq_7", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_faq_7_q", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Как выглядит техническая поддержка после запуска?" },
+        { "key": "field_exp_faq_7_a", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Мы предоставляем SLA-поддержку: мониторинг работоспособности системы, плановые дообучения модели при изменении условий, обновления ПО и консультации команды. Доступны тарифы от базового (8×5) до расширенного (24×7)." }
+      ]},
+      { "key": "field_exp_faq_8", "label": "Вопрос 8", "name": "exp_faq_8", "type": "group", "layout": "block", "sub_fields": [
+        { "key": "field_exp_faq_8_q", "label": "Вопрос", "name": "question", "type": "text", "default_value": "Можно ли начать с пилота на одной камере?" },
+        { "key": "field_exp_faq_8_a", "label": "Ответ", "name": "answer", "type": "textarea", "rows": 3, "default_value": "Да, это наш рекомендуемый подход. Пилот на 1–3 камерах позволяет проверить гипотезу, измерить реальный эффект и принять взвешенное решение о масштабировании — без больших первоначальных инвестиций." }
       ]}
 
     ],
@@ -236,6 +274,7 @@
     "style": "default",
     "label_placement": "top",
     "instruction_placement": "label",
-    "active": true
+    "active": true,
+    "modified": 1775488800
   }
 ]

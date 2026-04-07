@@ -1,0 +1,32 @@
+[
+  {
+    "key": "group_blog_post_fields",
+    "title": "Дополнительные поля записи",
+    "fields": [
+      {
+        "key": "field_blog_read_time",
+        "label": "Время чтения",
+        "name": "read_time",
+        "type": "text",
+        "placeholder": "5 мин",
+        "default_value": "",
+        "instructions": "Например: 5 мин, 10 мин"
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "post"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+  }
+]

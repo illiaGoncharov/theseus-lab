@@ -1,9 +1,9 @@
 <?php
 $fallback = [
-    ['num' => '01', 'title' => 'Аудит и ТЗ',       'duration' => '1–2 нед.', 'tasks' => "Обследование объекта и инфраструктуры\nСбор требований к детекции\nСогласование метрик успеха"],
-    ['num' => '02', 'title' => 'Сбор данных',       'duration' => '2–4 нед.', 'tasks' => "Съёмка на объекте или подготовка датасета\nРазметка и аугментация данных\nОценка базового качества модели"],
-    ['num' => '03', 'title' => 'Обучение модели',   'duration' => '2–6 нед.', 'tasks' => "Fine-tuning или обучение с нуля\nВалидация на тестовой выборке\nОптимизация под целевое железо"],
-    ['num' => '04', 'title' => 'Пилот и запуск',    'duration' => '2–4 нед.', 'tasks' => "Развёртывание на объекте\nИнтеграция с CCTV и системами уведомлений\nСдача, документация, поддержка"],
+    ['num' => '01', 'title' => __('Аудит и ТЗ', 'theseus-lab'),       'duration' => __('1–2 нед.', 'theseus-lab'), 'tasks' => __("Обследование объекта и инфраструктуры\nСбор требований к детекции\nСогласование метрик успеха", 'theseus-lab')],
+    ['num' => '02', 'title' => __('Сбор данных', 'theseus-lab'),       'duration' => __('2–4 нед.', 'theseus-lab'), 'tasks' => __("Съёмка на объекте или подготовка датасета\nРазметка и аугментация данных\nОценка базового качества модели", 'theseus-lab')],
+    ['num' => '03', 'title' => __('Обучение модели', 'theseus-lab'),   'duration' => __('2–6 нед.', 'theseus-lab'), 'tasks' => __("Fine-tuning или обучение с нуля\nВалидация на тестовой выборке\nОптимизация под целевое железо", 'theseus-lab')],
+    ['num' => '04', 'title' => __('Пилот и запуск', 'theseus-lab'),    'duration' => __('2–4 нед.', 'theseus-lab'), 'tasks' => __("Развёртывание на объекте\nИнтеграция с CCTV и системами уведомлений\nСдача, документация, поддержка", 'theseus-lab')],
 ];
 
 $stages = [];
@@ -23,12 +23,12 @@ if (empty($stages)) {
     <div class="container">
         <div class="exp-impl-header reveal-item">
             <div>
-                <span class="section-label">Процесс</span>
+                <span class="section-label"><?php esc_html_e('Процесс', 'theseus-lab'); ?></span>
                 <h2 class="section-title">
-                    Этапы<br><span class="text-muted-30">внедрения</span>
+                    <?php esc_html_e('Этапы', 'theseus-lab'); ?><br><span class="text-muted-30"><?php esc_html_e('внедрения', 'theseus-lab'); ?></span>
                 </h2>
             </div>
-            <p class="exp-impl-desc">Прозрачный процесс — от первой встречи до запуска в продакшн</p>
+            <p class="exp-impl-desc"><?php esc_html_e('Прозрачный процесс — от первой встречи до запуска в продакшн', 'theseus-lab'); ?></p>
         </div>
 
         <div class="exp-impl-grid">

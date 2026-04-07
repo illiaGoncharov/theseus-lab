@@ -1,0 +1,53 @@
+[
+  {
+    "key": "group_case_fields",
+    "title": "Поля кейса",
+    "fields": [
+      { "key": "field_case_tab_main", "label": "Основное", "type": "tab" },
+      {
+        "key": "field_case_result",
+        "label": "Результат (число / метрика)",
+        "name": "case_result",
+        "type": "text",
+        "placeholder": "+42%",
+        "instructions": "Крупная метрика для бейджа, например: +42%, −35%, x3"
+      },
+      {
+        "key": "field_case_result_label",
+        "label": "Подпись результата",
+        "name": "case_result_label",
+        "type": "text",
+        "placeholder": "рост эффективности",
+        "instructions": "Пояснение к метрике, например: рост эффективности, снижение брака"
+      },
+      { "key": "field_case_tab_gallery", "label": "Галерея", "type": "tab" },
+      {
+        "key": "field_case_gallery",
+        "label": "Галерея проекта",
+        "name": "case_gallery",
+        "type": "gallery",
+        "return_format": "array",
+        "preview_size": "medium",
+        "library": "all",
+        "min": 0,
+        "max": 10,
+        "instructions": "Фотографии проекта. Подписи к фото берутся из поля «Описание» (caption) медиафайла."
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "case"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+  }
+]

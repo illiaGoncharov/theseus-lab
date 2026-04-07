@@ -18,12 +18,12 @@ $techs = [
     <div class="container">
         <div class="tech-header reveal-item">
             <div>
-                <span class="section-label">Технологии</span>
+                <span class="section-label"><?php esc_html_e('Технологии', 'theseus-lab'); ?></span>
                 <h2 class="section-title">
-                    <?php theseus_field_e('tech_title', 'Стек, на котором'); ?><br><span class="text-muted-30"><?php theseus_field_e('tech_title_accent', 'строятся системы'); ?></span>
+                    <?php theseus_field_e('tech_title', esc_html__('Стек, на котором', 'theseus-lab')); ?><br><span class="text-muted-30"><?php theseus_field_e('tech_title_accent', esc_html__('строятся системы', 'theseus-lab')); ?></span>
                 </h2>
             </div>
-            <p class="tech-desc"><?php theseus_field_e('tech_desc', 'Используем проверенные инструменты и открытые стандарты для создания надёжных AI-решений'); ?></p>
+            <p class="tech-desc"><?php theseus_field_e('tech_desc', esc_html__('Используем проверенные инструменты и открытые стандарты для создания надёжных AI-решений', 'theseus-lab')); ?></p>
         </div>
 
         <div class="tech-grid reveal-item">
@@ -34,6 +34,12 @@ $techs = [
                 <span class="tech-cat"><?php echo esc_html($t['category']); ?></span>
             </div>
             <?php endforeach; ?>
+        </div>
+
+        <div class="section-cta-row reveal-item">
+            <a href="#contact" class="btn btn-primary" data-popup="contact">
+                <?php esc_html_e('Рассчитать проект', 'theseus-lab'); ?> <i class="ri-arrow-right-line"></i>
+            </a>
         </div>
     </div>
 </section>

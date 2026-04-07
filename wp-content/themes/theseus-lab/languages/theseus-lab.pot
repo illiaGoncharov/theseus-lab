@@ -1,0 +1,1560 @@
+# Copyright (C) 2026 Theseus Lab
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Theseus Lab 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/theseus-lab\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-04-02T16:40:19+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: theseus-lab\n"
+
+#. Theme Name of the theme
+#. Author of the theme
+#: style.css
+msgid "Theseus Lab"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://theseuslab.ru"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "AI-компания — разработка решений на базе компьютерного зрения и автоматизации"
+msgstr ""
+
+#: footer.php:12
+msgid "Разработка интеллектуальных систем для анализа данных и автоматизации бизнес-процессов"
+msgstr ""
+
+#: footer.php:16
+msgid "Решения"
+msgstr ""
+
+#: footer.php:18
+msgid "Компьютерное зрение"
+msgstr ""
+
+#: footer.php:19
+msgid "Системы безопасности"
+msgstr ""
+
+#: footer.php:20
+msgid "Анализ персонала"
+msgstr ""
+
+#: footer.php:21
+msgid "Распознавание объектов"
+msgstr ""
+
+#: footer.php:25
+#: functions.php:188
+#: template-contact.php:110
+msgid "Компания"
+msgstr ""
+
+#: footer.php:27
+#: functions.php:119
+#: functions.php:129
+#: header.php:43
+#: header.php:89
+#: single-case.php:70
+#: template-cases-page.php:35
+#: template-parts/section-portfolio.php:19
+msgid "Кейсы"
+msgstr ""
+
+#: footer.php:28
+msgid "Блог"
+msgstr ""
+
+#. Template Name of the theme
+#: footer.php:29
+#: footer.php:33
+#: template-contact.php:26
+#: template-cookies.php:104
+msgid "Контакты"
+msgstr ""
+
+#: footer.php:51
+msgid "Все права защищены."
+msgstr ""
+
+#. Template Name of the theme
+#: footer.php:53
+#: template-cookies.php:18
+msgid "Политика cookies"
+msgstr ""
+
+#: footer.php:54
+msgid "Пользовательское соглашение"
+msgstr ""
+
+#: footer.php:63
+msgid "Закрыть"
+msgstr ""
+
+#: footer.php:64
+#: template-blog.php:158
+#: template-contact.php:127
+#: template-parts/section-cta.php:23
+#: template-parts/section-hero.php:20
+msgid "Оставить заявку"
+msgstr ""
+
+#: footer.php:65
+msgid "Расскажите о вашей задаче — мы проведём бесплатную консультацию."
+msgstr ""
+
+#: footer.php:73
+msgid "Спасибо! Мы свяжемся с вами в ближайшее время."
+msgstr ""
+
+#: footer.php:74
+msgid "Ошибка отправки. Попробуйте ещё раз."
+msgstr ""
+
+#: footer.php:81
+#: functions.php:188
+msgid "Имя"
+msgstr ""
+
+#: footer.php:82
+#: template-contact.php:108
+#: template-parts/section-cta.php:21
+msgid "Ваше имя"
+msgstr ""
+
+#: footer.php:85
+#: functions.php:188
+#: template-contact.php:116
+#: template-parts/section-cta.php:22
+msgid "Телефон"
+msgstr ""
+
+#: footer.php:87
+#: functions.php:188
+msgid "Сообщение"
+msgstr ""
+
+#: footer.php:88
+msgid "Расскажите о вашей задаче"
+msgstr ""
+
+#: footer.php:89
+msgid "Отправить"
+msgstr ""
+
+#: footer.php:99
+msgid "Мы используем файлы cookie для улучшения работы сайта."
+msgstr ""
+
+#: footer.php:100
+#: single-case.php:228
+#: template-cases-page.php:119
+#: template-parts/section-cases.php:88
+#: template-parts/section-directions.php:70
+msgid "Подробнее"
+msgstr ""
+
+#: footer.php:102
+msgid "Принять"
+msgstr ""
+
+#: footer.php:107
+msgid "Наверх"
+msgstr ""
+
+#: functions.php:31
+msgid "Основное меню"
+msgstr ""
+
+#: functions.php:120
+msgid "Кейс"
+msgstr ""
+
+#: functions.php:121
+msgid "Добавить кейс"
+msgstr ""
+
+#: functions.php:122
+msgid "Добавить новый кейс"
+msgstr ""
+
+#: functions.php:123
+msgid "Редактировать кейс"
+msgstr ""
+
+#: functions.php:124
+msgid "Новый кейс"
+msgstr ""
+
+#: functions.php:125
+msgid "Просмотреть кейс"
+msgstr ""
+
+#: functions.php:126
+msgid "Найти кейс"
+msgstr ""
+
+#: functions.php:127
+msgid "Кейсов не найдено"
+msgstr ""
+
+#: functions.php:128
+msgid "В корзине кейсов нет"
+msgstr ""
+
+#: functions.php:141
+#: template-parts/expertise/section-industries.php:47
+msgid "Отрасли"
+msgstr ""
+
+#: functions.php:142
+msgid "Отрасль"
+msgstr ""
+
+#: functions.php:143
+msgid "Добавить отрасль"
+msgstr ""
+
+#: functions.php:144
+msgid "Найти отрасль"
+msgstr ""
+
+#: functions.php:145
+msgid "Все отрасли"
+msgstr ""
+
+#: functions.php:146
+msgid "Редактировать отрасль"
+msgstr ""
+
+#: functions.php:187
+msgid "Заявка с сайта"
+msgstr ""
+
+#: header.php:42
+#: header.php:88
+#: template-parts/expertise/section-hero.php:30
+msgid "Услуги"
+msgstr ""
+
+#: header.php:44
+#: header.php:90
+#: single.php:44
+#: template-blog.php:30
+msgid "Медиа"
+msgstr ""
+
+#: header.php:69
+#: header.php:105
+msgid "Рассчитать проект"
+msgstr ""
+
+#: header.php:72
+msgid "Меню"
+msgstr ""
+
+#: index.php:22
+msgid "Ничего не найдено."
+msgstr ""
+
+#: single-case.php:111
+msgid "Все кейсы"
+msgstr ""
+
+#: single-case.php:114
+#: single.php:97
+msgid "Поделиться:"
+msgstr ""
+
+#: single-case.php:117
+#: single.php:100
+msgid "Скопировать ссылку"
+msgstr ""
+
+#: single-case.php:125
+#: single.php:108
+#: template-cookies.php:124
+msgid "Содержание"
+msgstr ""
+
+#: single-case.php:130
+msgid "Ключевой результат"
+msgstr ""
+
+#: single-case.php:140
+msgid "Похожая задача в вашем бизнесе?"
+msgstr ""
+
+#: single-case.php:142
+#: template-cases-page.php:165
+#: template-parts/expertise/section-hero.php:47
+msgid "Обсудить проект"
+msgstr ""
+
+#: single-case.php:159
+msgid "Галерея проекта"
+msgstr ""
+
+#: single-case.php:161
+msgid "фото"
+msgstr ""
+
+#: single-case.php:196
+msgid "Смотрите также"
+msgstr ""
+
+#: single.php:65
+#: single.php:158
+#: template-blog.php:108
+msgid "чтения"
+msgstr ""
+
+#: single.php:94
+msgid "Все статьи"
+msgstr ""
+
+#: single.php:114
+msgid "Нужна консультация по вашему AI-проекту?"
+msgstr ""
+
+#: single.php:116
+#: template-cookies.php:130
+msgid "Написать нам"
+msgstr ""
+
+#: single.php:132
+msgid "Читайте также"
+msgstr ""
+
+#: single.php:162
+#: template-blog.php:112
+msgid "Читать"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Страница медиа"
+msgstr ""
+
+#: template-blog.php:33
+msgid "Статьи об"
+msgstr ""
+
+#: template-blog.php:34
+msgid "AI технологиях"
+msgstr ""
+
+#: template-blog.php:37
+msgid "Разбираем архитектуры, делимся кейсами и рассказываем о трендах в компьютерном зрении и AI-автоматизации."
+msgstr ""
+
+#: template-blog.php:48
+#: template-cases-page.php:53
+msgid "Все"
+msgstr ""
+
+#: template-blog.php:61
+msgid "статья"
+msgstr ""
+
+#: template-blog.php:63
+msgid "статьи"
+msgstr ""
+
+#: template-blog.php:65
+msgid "статей"
+msgstr ""
+
+#: template-blog.php:128
+#: template-cases-page.php:135
+msgid "Показать больше"
+msgstr ""
+
+#: template-blog.php:136
+msgid "Статей пока нет"
+msgstr ""
+
+#: template-blog.php:150
+msgid "AI-решения"
+msgstr ""
+
+#: template-blog.php:153
+msgid "Нужна консультация"
+msgstr ""
+
+#: template-blog.php:154
+msgid "по вашему проекту?"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Страница кейсов"
+msgstr ""
+
+#: template-cases-page.php:38
+#: template-parts/section-portfolio.php:21
+msgid "Реальные внедрения"
+msgstr ""
+
+#: template-cases-page.php:39
+#: template-parts/section-portfolio.php:21
+msgid "с измеримым результатом"
+msgstr ""
+
+#: template-cases-page.php:42
+msgid "Проекты в производстве, логистике, ритейле и строительстве — задачи, решения и конкретные цифры."
+msgstr ""
+
+#: template-cases-page.php:66
+msgid "кейс"
+msgstr ""
+
+#: template-cases-page.php:68
+msgid "кейса"
+msgstr ""
+
+#: template-cases-page.php:70
+msgid "кейсов"
+msgstr ""
+
+#: template-cases-page.php:143
+msgid "Кейсов пока нет"
+msgstr ""
+
+#: template-cases-page.php:157
+msgid "Ваш проект"
+msgstr ""
+
+#: template-cases-page.php:160
+msgid "Похожая задача"
+msgstr ""
+
+#: template-cases-page.php:161
+msgid "в вашем бизнесе?"
+msgstr ""
+
+#: template-contact.php:14
+msgid "Пн–Пт: 10:00 – 18:00"
+msgstr ""
+
+#: template-contact.php:15
+msgid "Санкт-Петербург, ул. М. Говорова, 35, офис 4"
+msgstr ""
+
+#: template-contact.php:28
+msgid "Свяжитесь с"
+msgstr ""
+
+#: template-contact.php:28
+msgid "нами"
+msgstr ""
+
+#: template-contact.php:94
+#: template-parts/section-cta.php:10
+msgid "Готовы обсудить"
+msgstr ""
+
+#: template-contact.php:95
+#: template-parts/section-cta.php:10
+msgid "вашу задачу?"
+msgstr ""
+
+#: template-contact.php:98
+msgid "Расскажите о вашей задаче — мы проведём бесплатную консультацию и предложим оптимальное AI‑решение под ваш бизнес."
+msgstr ""
+
+#: template-contact.php:114
+msgid "Email"
+msgstr ""
+
+#: template-contact.php:121
+msgid "Опишите вашу задачу"
+msgstr ""
+
+#: template-contact.php:131
+#: template-parts/section-cta.php:26
+msgid "Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности"
+msgstr ""
+
+#: template-contact.php:136
+msgid "Спасибо! Заявка отправлена — мы свяжемся с вами в ближайшее время."
+msgstr ""
+
+#: template-contact.php:140
+msgid "Ошибка при отправке. Попробуйте позже."
+msgstr ""
+
+#: template-contact.php:155
+msgid "Карта появится после заполнения поля «Карта (iframe-код)» в WP-admin"
+msgstr ""
+
+#: template-cookies.php:16
+#: template-parts/expertise/section-hero.php:28
+msgid "Главная"
+msgstr ""
+
+#: template-cookies.php:21
+msgid "Политика использования"
+msgstr ""
+
+#: template-cookies.php:21
+msgid "файлов"
+msgstr ""
+
+#: template-cookies.php:23
+msgid "Мы заботимся о вашей конфиденциальности и прозрачно объясняем, какие данные собираем и зачем."
+msgstr ""
+
+#. translators: %s: дата обновления
+#: template-cookies.php:28
+#, php-format
+msgid "Обновлено: %s"
+msgstr ""
+
+#: template-cookies.php:41
+msgid "Что такое cookie"
+msgstr ""
+
+#: template-cookies.php:43
+msgid "Файлы cookie — это небольшие текстовые файлы, которые сохраняются на вашем устройстве (компьютере, смартфоне, планшете) при посещении веб-сайта. Они помогают сайту «запоминать» ваши настройки и действия, чтобы вам не приходилось вводить их заново при каждом визите."
+msgstr ""
+
+#: template-cookies.php:46
+msgid "Cookie не содержат вирусов, не имеют доступа к файлам на вашем устройстве и не могут идентифицировать вас лично без дополнительной информации."
+msgstr ""
+
+#: template-cookies.php:49
+msgid "Какие cookie мы используем"
+msgstr ""
+
+#: template-cookies.php:51
+msgid "Строго необходимые"
+msgstr ""
+
+#: template-cookies.php:53
+msgid "Эти файлы нужны для корректной работы сайта. Без них невозможно отображение страниц, работа форм обратной связи и защита от межсайтовых атак (CSRF). Их нельзя отключить."
+msgstr ""
+
+#: template-cookies.php:56
+msgid "сохраняет ваше согласие с политикой cookie (localStorage, бессрочно до удаления)."
+msgstr ""
+
+#: template-cookies.php:57
+msgid "сессия авторизации для администраторов сайта."
+msgstr ""
+
+#: template-cookies.php:58
+msgid "токен защиты форм от CSRF-атак."
+msgstr ""
+
+#: template-cookies.php:61
+msgid "Аналитические"
+msgstr ""
+
+#: template-cookies.php:63
+msgid "Помогают нам понять, как посетители взаимодействуют с сайтом: какие страницы просматривают, откуда приходят, сколько времени проводят. Данные собираются в обезличенном виде."
+msgstr ""
+
+#: template-cookies.php:66
+msgid "Яндекс.Метрика: уникальный идентификатор посетителя (срок хранения — 1 год)."
+msgstr ""
+
+#: template-cookies.php:67
+msgid "Яндекс.Метрика: определение наличия блокировщика рекламы."
+msgstr ""
+
+#: template-cookies.php:70
+msgid "Функциональные"
+msgstr ""
+
+#: template-cookies.php:72
+msgid "Запоминают ваши предпочтения — например, выбранный язык, регион или состояние интерфейса. Не передаются третьим сторонам."
+msgstr ""
+
+#: template-cookies.php:75
+msgid "Как управлять cookie"
+msgstr ""
+
+#: template-cookies.php:77
+msgid "Вы можете в любой момент удалить или заблокировать cookie через настройки вашего браузера. Обратите внимание: отключение cookie может повлиять на функциональность сайта."
+msgstr ""
+
+#: template-cookies.php:80
+msgid "Настройки → Конфиденциальность и безопасность → Файлы cookie"
+msgstr ""
+
+#: template-cookies.php:81
+msgid "Настройки → Приватность и защита → Cookie и данные сайтов"
+msgstr ""
+
+#: template-cookies.php:82
+msgid "Настройки → Конфиденциальность → Управление данными веб-сайтов"
+msgstr ""
+
+#: template-cookies.php:83
+msgid "Настройки → Конфиденциальность → Файлы cookie и разрешения сайтов"
+msgstr ""
+
+#: template-cookies.php:86
+msgid "Чтобы сбросить согласие с cookie на нашем сайте, удалите ключ theseus_cookies_accepted в разделе Local Storage вашего браузера (DevTools → Application → Local Storage)."
+msgstr ""
+
+#: template-cookies.php:89
+msgid "Срок хранения"
+msgstr ""
+
+#: template-cookies.php:91
+msgid "Сессионные cookie удаляются автоматически при закрытии браузера. Постоянные cookie хранятся от 30 дней до 1 года в зависимости от назначения. Данные аналитики хранятся в обезличенном виде не более 26 месяцев."
+msgstr ""
+
+#: template-cookies.php:94
+msgid "Передача данных третьим лицам"
+msgstr ""
+
+#: template-cookies.php:96
+msgid "Мы не продаём и не передаём персональные данные третьим лицам в коммерческих целях. Аналитические сервисы (Яндекс.Метрика) получают доступ только к обезличенной статистике посещений в соответствии с их собственной политикой конфиденциальности."
+msgstr ""
+
+#: template-cookies.php:99
+msgid "Изменения в политике"
+msgstr ""
+
+#: template-cookies.php:101
+msgid "Мы оставляем за собой право обновлять данную политику. Актуальная версия всегда доступна на этой странице. Рекомендуем периодически проверять её на наличие изменений."
+msgstr ""
+
+#: template-cookies.php:106
+msgid "Если у вас есть вопросы о нашей политике использования cookie, свяжитесь с нами:"
+msgstr ""
+
+#: template-cookies.php:109
+msgid "Email:"
+msgstr ""
+
+#: template-cookies.php:110
+msgid "Страница контактов:"
+msgstr ""
+
+#: template-cookies.php:117
+msgid "На главную"
+msgstr ""
+
+#: template-cookies.php:128
+msgid "Есть вопросы? Мы на связи."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Страница услуги"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:3
+msgid "рост производительности"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:3
+msgid "Эффективность производства"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:3
+msgid "Автоматизация визуального контроля высвобождает сотрудников для задач с большей добавленной стоимостью."
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:4
+msgid "снижение брака"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:4
+msgid "Качество продукции"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:4
+msgid "Нейросеть обнаруживает дефекты, незаметные человеческому глазу, до попадания продукта на следующий этап."
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:5
+msgid "инцидентов по ОТ"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:5
+msgid "Безопасность персонала"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:5
+msgid "Мгновенная реакция на нарушения снижает травматизм и потери от простоев, связанных с несчастными случаями."
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:6
+msgid "месяцев окупаемость"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:6
+msgid "ROI внедрения"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:6
+msgid "Экономия на ручном контроле и потерях от брака обеспечивает возврат инвестиций в течение одного-двух сезонов."
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:26
+msgid "Эффект"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:28
+msgid "Преимущества"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:28
+msgid "для бизнеса"
+msgstr ""
+
+#: template-parts/expertise/section-benefits.php:31
+msgid "Измеримые результаты, подтверждённые реальными проектами"
+msgstr ""
+
+#: template-parts/expertise/section-hero.php:3
+#: template-parts/section-directions.php:6
+msgid "Машинное зрение"
+msgstr ""
+
+#: template-parts/expertise/section-hero.php:4
+msgid "Машинное"
+msgstr ""
+
+#: template-parts/expertise/section-hero.php:5
+msgid "зрение"
+msgstr ""
+
+#: template-parts/expertise/section-hero.php:6
+msgid "Внедряем системы компьютерного зрения, которые анализируют видеопотоки в реальном времени, автоматизируют контроль качества и обеспечивают безопасность объектов."
+msgstr ""
+
+#: template-parts/expertise/section-hero.php:48
+msgid "Как это работает"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:3
+msgid "Постоянно"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:3
+msgid "Подключение к видеопотоку"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:3
+msgid "Сервис получает RTSP-поток с камер через сеть предприятия. Поддерживаются любые IP-камеры и видеосерверы."
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:4
+msgid "< 80 мс / кадр"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:4
+msgid "Предобработка кадра"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:4
+msgid "Изображение нормализуется, ресайзится и передаётся в инференс-пайплайн на GPU-сервере или edge-устройстве."
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:5
+msgid "Real-time"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:5
+msgid "Детекция и трекинг"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:5
+msgid "Нейросеть обнаруживает объекты, назначает ID и отслеживает траектории между кадрами через DeepSORT / ByteTrack."
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:6
+msgid "< 200 мс"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:6
+msgid "Бизнес-логика и алерты"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:6
+msgid "Правила срабатывают при пересечении зон, превышении порогов, появлении заданных классов объектов."
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:7
+msgid "Непрерывно"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:7
+msgid "Хранение и аналитика"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:7
+msgid "События сохраняются в базу данных. Дашборд обновляется в реальном времени, отчёты формируются автоматически."
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:26
+msgid "Принцип работы"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:28
+msgid "Как работает"
+msgstr ""
+
+#: template-parts/expertise/section-how-it-works.php:28
+msgid "система"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:3
+msgid "Аудит и ТЗ"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:3
+#: template-parts/section-process.php:3
+#: template-parts/section-process.php:6
+msgid "1–2 нед."
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:3
+msgid ""
+"Обследование объекта и инфраструктуры\n"
+"Сбор требований к детекции\n"
+"Согласование метрик успеха"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:4
+msgid "Сбор данных"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:4
+#: template-parts/expertise/section-implementation.php:6
+msgid "2–4 нед."
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:4
+msgid ""
+"Съёмка на объекте или подготовка датасета\n"
+"Разметка и аугментация данных\n"
+"Оценка базового качества модели"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:5
+msgid "Обучение модели"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:5
+msgid "2–6 нед."
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:5
+msgid ""
+"Fine-tuning или обучение с нуля\n"
+"Валидация на тестовой выборке\n"
+"Оптимизация под целевое железо"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:6
+msgid "Пилот и запуск"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:6
+msgid ""
+"Развёртывание на объекте\n"
+"Интеграция с CCTV и системами уведомлений\n"
+"Сдача, документация, поддержка"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:26
+#: template-parts/section-process.php:14
+msgid "Процесс"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:28
+msgid "Этапы"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:28
+msgid "внедрения"
+msgstr ""
+
+#: template-parts/expertise/section-implementation.php:31
+msgid "Прозрачный процесс — от первой встречи до запуска в продакшн"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:4
+msgid "Промышленность"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:5
+msgid "Интегрируем системы машинного зрения непосредственно в производственные линии для повышения выхода годной продукции и снижения брака."
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:6
+msgid ""
+"Автоматический контроль качества на линии без остановки производства\n"
+"Детекция дефектов поверхности с точностью 97%\n"
+"Мониторинг выполнения технологических регламентов\n"
+"Учёт наличия и положения деталей в производственных ячейках"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:10
+#: template-parts/section-portfolio.php:6
+msgid "Строительство"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:11
+msgid "Круглосуточный видеомониторинг стройплощадки для контроля соблюдения техники безопасности и хода работ."
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:12
+msgid ""
+"Контроль ношения касок, жилетов и других СИЗ\n"
+"Обнаружение посторонних лиц в опасных зонах\n"
+"Документирование прогресса строительства по камерам\n"
+"Автоматический учёт въезда и выезда спецтехники"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:16
+#: template-parts/section-portfolio.php:5
+msgid "Ритейл"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:17
+msgid "Аналитика торговых залов, контроль полочного пространства и поведенческий анализ посетителей для роста конверсии."
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:18
+msgid ""
+"Тепловые карты движения и зон наибольшего внимания\n"
+"Автоматический контроль наличия товаров на полке\n"
+"Подсчёт уникальных посетителей и времени в зале\n"
+"Детекция очередей и управление кассовыми потоками"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:22
+msgid "Транспорт и логистика"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:23
+msgid "Автоматизация контроля на транспортных узлах: склады, терминалы, парковки, пограничные зоны."
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:24
+msgid ""
+"LPR — распознавание номеров с точностью 99%\n"
+"Управление воротами и шлагбаумами без оператора\n"
+"Контроль целостности пломб и состояния груза\n"
+"Мониторинг загрузки складских зон в реальном времени"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:49
+msgid "Для каких отраслей"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:49
+msgid "подходит решение"
+msgstr ""
+
+#: template-parts/expertise/section-industries.php:94
+msgid "Смотреть кейс"
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:3
+msgid "Слепые зоны в контроле качества"
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:3
+msgid "Ручной осмотр покрывает не более 15% продукции — дефекты проходят незамеченными и добираются до конечного потребителя."
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:4
+msgid "Высокие трудозатраты"
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:4
+msgid "Операторы тратят до 40% рабочего времени на монотонный визуальный контроль, что ведёт к усталости и росту ошибок."
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:5
+msgid "Медленная реакция на инциденты"
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:5
+msgid "Без автоматического мониторинга критические события — вторжение, поломка, нарушение зон — обнаруживаются с опозданием."
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:6
+msgid "Отсутствие аналитики потоков"
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:6
+msgid "Нет данных о движении людей, загрузке оборудования, плотности трафика — невозможно принимать взвешенные операционные решения."
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:7
+msgid "Документирование инцидентов вручную"
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:7
+msgid "Бумажные журналы и ручные отчёты не позволяют быстро найти нужные записи и подтвердить факты при спорных ситуациях."
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:8
+msgid "Нехватка специалистов"
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:8
+msgid "Дефицит квалифицированных инспекторов и охранников ограничивает масштабирование операций и повышает операционный риск."
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:27
+msgid "Контекст"
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:29
+msgid "С какими проблемами"
+msgstr ""
+
+#: template-parts/expertise/section-problems.php:29
+msgid "сталкиваются предприятия"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:3
+msgid "Контроль доступа и безопасность"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:3
+msgid "Автоматическое обнаружение несанкционированных лиц, пересечения запрещённых зон и появления посторонних предметов."
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:3
+msgid "Периметр, Зоны доступа, Алерты"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:4
+msgid "Контроль качества продукции"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:4
+msgid "Детекция дефектов, царапин, деформаций и несоответствий стандарту прямо на конвейере с точностью до 97%."
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:4
+msgid "Инспекция, Дефекты, Конвейер"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:5
+msgid "Мониторинг сотрудников"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:5
+msgid "Контроль использования СИЗ, присутствия на рабочем месте, отслеживание нарушений охраны труда."
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:5
+msgid "СИЗ, Охрана труда, Присутствие"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:6
+msgid "Анализ движения и трафика"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:6
+msgid "Подсчёт посетителей, тепловые карты трафика, загрузка зон — данные для оптимизации пространства."
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:6
+msgid "Heatmap, Счётчик, Зонирование"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:7
+msgid "Контроль транспорта и логистики"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:7
+msgid "Автоматическое распознавание номеров, контроль правил въезда и выезда, мониторинг загрузки/разгрузки."
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:7
+msgid "LPR, Логистика, Въезд/выезд"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:8
+msgid "Мониторинг оборудования"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:8
+msgid "Детекция нештатных состояний, перегревов, утечек, вибраций на основе визуального анализа."
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:8
+msgid "Предиктив, Состояние, Аварии"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:27
+msgid "Применение"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:29
+msgid "Сценарии"
+msgstr ""
+
+#: template-parts/expertise/section-scenarios.php:29
+msgid "применения"
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:3
+msgid "Подключение к существующим камерам"
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:3
+msgid "Система работает с любым CCTV или IP-оборудованием — не требует замены инфраструктуры."
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:4
+msgid "Нейросетевое распознавание объектов"
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:4
+msgid "Модели YOLO и Transformer архитектур детектируют объекты, людей, дефекты и события в реальном времени."
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:5
+msgid "Мгновенные уведомления"
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:5
+msgid "При обнаружении события система автоматически отправляет алерт в Telegram, email или корпоративную систему."
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:6
+msgid "Единый дашборд аналитики"
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:6
+msgid "Все метрики и события отображаются на одном экране с возможностью ретроспективного анализа и экспорта отчётов."
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:10
+msgid "Как мы решаем эти задачи"
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:11
+msgid "С помощью AI анализируем видеопотоки с камер в режиме реального времени и автоматически выявляем события, отклонения и риски."
+msgstr ""
+
+#: template-parts/expertise/section-solution.php:42
+msgid "Решение"
+msgstr ""
+
+#: template-parts/section-architecture.php:3
+msgid "Источники данных"
+msgstr ""
+
+#: template-parts/section-architecture.php:3
+msgid "Камеры, сенсоры, внешние API и потоковые данные"
+msgstr ""
+
+#: template-parts/section-architecture.php:3
+#: template-parts/section-cases.php:7
+msgid "Камеры"
+msgstr ""
+
+#: template-parts/section-architecture.php:3
+#: template-parts/section-cases.php:37
+msgid "Сенсоры"
+msgstr ""
+
+#: template-parts/section-architecture.php:3
+msgid "Стримы"
+msgstr ""
+
+#: template-parts/section-architecture.php:4
+msgid "Модели компьютерного зрения"
+msgstr ""
+
+#: template-parts/section-architecture.php:4
+msgid "Предобученные и кастомные нейросети для детекции и классификации"
+msgstr ""
+
+#: template-parts/section-architecture.php:5
+msgid "Слой обработки"
+msgstr ""
+
+#: template-parts/section-architecture.php:5
+msgid "Предобработка, извлечение признаков и инференс в реальном времени"
+msgstr ""
+
+#: template-parts/section-architecture.php:6
+msgid "Бизнес-логика"
+msgstr ""
+
+#: template-parts/section-architecture.php:6
+msgid "Правила, принятие решений и система оповещений"
+msgstr ""
+
+#: template-parts/section-architecture.php:7
+msgid "Аналитический дашборд"
+msgstr ""
+
+#: template-parts/section-architecture.php:7
+msgid "Визуализация данных, отчёты и мониторинг в реальном времени"
+msgstr ""
+
+#: template-parts/section-architecture.php:7
+msgid "Визуализация"
+msgstr ""
+
+#: template-parts/section-architecture.php:7
+#: template-parts/section-cases.php:17
+msgid "Отчёты"
+msgstr ""
+
+#: template-parts/section-architecture.php:7
+msgid "Мониторинг"
+msgstr ""
+
+#: template-parts/section-architecture.php:14
+msgid "Архитектура"
+msgstr ""
+
+#: template-parts/section-architecture.php:16
+msgid "Как устроена"
+msgstr ""
+
+#: template-parts/section-architecture.php:16
+msgid "AI-система"
+msgstr ""
+
+#: template-parts/section-architecture.php:20
+msgid "Каждый слой системы решает конкретную задачу — от сбора данных до принятия решений"
+msgstr ""
+
+#: template-parts/section-cases.php:5
+msgid "Мониторинг безопасности"
+msgstr ""
+
+#: template-parts/section-cases.php:6
+msgid "Автоматическое обнаружение инцидентов, несанкционированного доступа и нарушений протоколов в режиме реального времени."
+msgstr ""
+
+#: template-parts/section-cases.php:7
+msgid "AI-модель"
+msgstr ""
+
+#: template-parts/section-cases.php:7
+msgid "Детекция событий"
+msgstr ""
+
+#: template-parts/section-cases.php:7
+msgid "Аналитика"
+msgstr ""
+
+#: template-parts/section-cases.php:9
+msgid "инцидентов"
+msgstr ""
+
+#: template-parts/section-cases.php:15
+msgid "Анализ производительности персонала"
+msgstr ""
+
+#: template-parts/section-cases.php:16
+msgid "Оценка эффективности работы, выявление узких мест в процессах и оптимизация рабочих операций на основе видеоданных."
+msgstr ""
+
+#: template-parts/section-cases.php:17
+msgid "Видеопоток"
+msgstr ""
+
+#: template-parts/section-cases.php:17
+msgid "Обработка"
+msgstr ""
+
+#: template-parts/section-cases.php:17
+msgid "Анализ"
+msgstr ""
+
+#: template-parts/section-cases.php:19
+msgid "эффективность"
+msgstr ""
+
+#: template-parts/section-cases.php:25
+msgid "Распознавание объектов и материалов"
+msgstr ""
+
+#: template-parts/section-cases.php:26
+msgid "Идентификация и классификация объектов, контроль качества продукции и автоматизация учёта материалов."
+msgstr ""
+
+#: template-parts/section-cases.php:27
+msgid "Сканирование"
+msgstr ""
+
+#: template-parts/section-cases.php:27
+msgid "Детекция"
+msgstr ""
+
+#: template-parts/section-cases.php:27
+msgid "Классификация"
+msgstr ""
+
+#: template-parts/section-cases.php:27
+msgid "База данных"
+msgstr ""
+
+#: template-parts/section-cases.php:29
+msgid "точность"
+msgstr ""
+
+#: template-parts/section-cases.php:35
+msgid "Мониторинг операционных процессов"
+msgstr ""
+
+#: template-parts/section-cases.php:36
+msgid "Контроль соблюдения технологических процессов, предотвращение сбоев и оптимизация производственных циклов."
+msgstr ""
+
+#: template-parts/section-cases.php:37
+msgid "Процессинг"
+msgstr ""
+
+#: template-parts/section-cases.php:37
+msgid "Алерты"
+msgstr ""
+
+#: template-parts/section-cases.php:37
+msgid "Дашборд"
+msgstr ""
+
+#: template-parts/section-cases.php:39
+msgid "быстрее реакция"
+msgstr ""
+
+#: template-parts/section-cases.php:54
+msgid "Сценарии применения"
+msgstr ""
+
+#: template-parts/section-cases.php:56
+msgid "Как AI решает"
+msgstr ""
+
+#: template-parts/section-cases.php:56
+msgid "реальные задачи бизнеса"
+msgstr ""
+
+#: template-parts/section-cta.php:8
+msgid "Начать проект"
+msgstr ""
+
+#: template-parts/section-cta.php:13
+msgid "Расскажите о вашей задаче — мы проведём бесплатную консультацию и предложим оптимальное AI-решение под ваш бизнес."
+msgstr ""
+
+#: template-parts/section-directions.php:7
+msgid "Системы распознавания объектов, анализа видеопотоков и мониторинга в реальном времени. Автоматизация контроля качества и безопасности на производстве."
+msgstr ""
+
+#: template-parts/section-directions.php:8
+msgid "Детекция объектов"
+msgstr ""
+
+#: template-parts/section-directions.php:8
+msgid "Видеоаналитика"
+msgstr ""
+
+#: template-parts/section-directions.php:8
+msgid "Контроль качества"
+msgstr ""
+
+#: template-parts/section-directions.php:15
+msgid "Речевые технологии"
+msgstr ""
+
+#: template-parts/section-directions.php:16
+msgid "Распознавание и синтез речи, анализ тональности, голосовые интерфейсы и автоматизация коммуникаций для бизнеса."
+msgstr ""
+
+#: template-parts/section-directions.php:17
+msgid "Голосовые боты"
+msgstr ""
+
+#: template-parts/section-directions.php:24
+msgid "Автоматизация процессов"
+msgstr ""
+
+#: template-parts/section-directions.php:25
+msgid "Интеллектуальные системы для оптимизации рабочих процессов, прогнозирования и принятия решений на основе данных."
+msgstr ""
+
+#: template-parts/section-directions.php:26
+msgid "Предиктивная аналитика"
+msgstr ""
+
+#: template-parts/section-directions.php:41
+msgid "Что мы делаем"
+msgstr ""
+
+#: template-parts/section-directions.php:43
+msgid "Три направления"
+msgstr ""
+
+#: template-parts/section-directions.php:43
+msgid "нашей экспертизы"
+msgstr ""
+
+#: template-parts/section-directions.php:47
+msgid "Разрабатываем AI-системы под конкретные бизнес-задачи — от прототипа до промышленного внедрения"
+msgstr ""
+
+#: template-parts/section-hero.php:14
+#: template-parts/section-process.php:5
+msgid "Разработка"
+msgstr ""
+
+#: template-parts/section-hero.php:14
+msgid "AI решений"
+msgstr ""
+
+#: template-parts/section-hero.php:17
+msgid "Создаём интеллектуальные системы для анализа визуальных данных, мониторинга операций и автоматизации принятия решений."
+msgstr ""
+
+#: template-parts/section-hero.php:21
+msgid "Посмотреть кейсы"
+msgstr ""
+
+#: template-parts/section-portfolio.php:3
+msgid "Производство"
+msgstr ""
+
+#: template-parts/section-portfolio.php:3
+msgid "Автоматизация контроля качества"
+msgstr ""
+
+#: template-parts/section-portfolio.php:3
+msgid "Ручной контроль занимал много времени и приводил к пропуску дефектов"
+msgstr ""
+
+#: template-parts/section-portfolio.php:3
+msgid "точность обнаружения дефектов"
+msgstr ""
+
+#: template-parts/section-portfolio.php:4
+msgid "Логистика"
+msgstr ""
+
+#: template-parts/section-portfolio.php:4
+msgid "Мониторинг безопасности склада"
+msgstr ""
+
+#: template-parts/section-portfolio.php:4
+msgid "Невозможность отслеживать все зоны и своевременно реагировать на инциденты"
+msgstr ""
+
+#: template-parts/section-portfolio.php:4
+msgid "сокращение инцидентов"
+msgstr ""
+
+#: template-parts/section-portfolio.php:5
+msgid "Анализ поведения покупателей"
+msgstr ""
+
+#: template-parts/section-portfolio.php:5
+msgid "Отсутствие данных о движении покупателей и эффективности выкладки"
+msgstr ""
+
+#: template-parts/section-portfolio.php:5
+msgid "рост конверсии"
+msgstr ""
+
+#: template-parts/section-portfolio.php:6
+msgid "Контроль техники безопасности"
+msgstr ""
+
+#: template-parts/section-portfolio.php:6
+msgid "Сложность контроля использования СИЗ на большой стройплощадке"
+msgstr ""
+
+#: template-parts/section-portfolio.php:6
+msgid "соблюдение требований"
+msgstr ""
+
+#: template-parts/section-portfolio.php:24
+msgid "Обсудить ваш проект"
+msgstr ""
+
+#: template-parts/section-process.php:3
+msgid "Анализ задачи"
+msgstr ""
+
+#: template-parts/section-process.php:3
+msgid "Изучаем бизнес-процессы, выявляем узкие места и формируем чёткие требования к AI-системе."
+msgstr ""
+
+#: template-parts/section-process.php:4
+msgid "Проектирование"
+msgstr ""
+
+#: template-parts/section-process.php:4
+msgid "Разрабатываем архитектуру решения, выбираем стек технологий и согласуем прототип."
+msgstr ""
+
+#: template-parts/section-process.php:4
+msgid "1–3 нед."
+msgstr ""
+
+#: template-parts/section-process.php:5
+msgid "Создаём и обучаем модели, пишем программное обеспечение и проводим тестирование."
+msgstr ""
+
+#: template-parts/section-process.php:5
+msgid "2–8 нед."
+msgstr ""
+
+#: template-parts/section-process.php:6
+msgid "Интеграция"
+msgstr ""
+
+#: template-parts/section-process.php:6
+msgid "Внедряем систему в вашу инфраструктуру, настраиваем процессы и обучаем команду."
+msgstr ""
+
+#: template-parts/section-process.php:7
+msgid "Поддержка"
+msgstr ""
+
+#: template-parts/section-process.php:7
+msgid "Мониторим работу системы, оптимизируем производительность и развиваем функциональность."
+msgstr ""
+
+#: template-parts/section-process.php:15
+msgid "Этапы работы"
+msgstr ""
+
+#: template-parts/section-process.php:17
+msgid "Прозрачный процесс от первого звонка до запуска и масштабирования вашего AI-решения"
+msgstr ""
+
+#: template-parts/section-tech.php:21
+msgid "Технологии"
+msgstr ""
+
+#: template-parts/section-tech.php:23
+msgid "Стек, на котором"
+msgstr ""
+
+#: template-parts/section-tech.php:23
+msgid "строятся системы"
+msgstr ""
+
+#: template-parts/section-tech.php:26
+msgid "Используем проверенные инструменты и открытые стандарты для создания надёжных AI-решений"
+msgstr ""

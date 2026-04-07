@@ -39,9 +39,9 @@ $header_tg = theseus_field('header_telegram', 'https://t.me/theseuslab');
             } else {
                 ?>
                 <ul class="nav-links">
-                    <li><a href="#directions">Услуги</a></li>
-                    <li><a href="#portfolio">Кейсы</a></li>
-                    <li><a href="#cases">Сценарии</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/computer-vision/')); ?>"><?php esc_html_e('Услуги', 'theseus-lab'); ?></a></li>
+                    <li><a href="<?php echo esc_url(home_url('/cases/')); ?>"><?php esc_html_e('Кейсы', 'theseus-lab'); ?></a></li>
+                    <li><a href="<?php echo esc_url(home_url('/media/')); ?>"><?php esc_html_e('Медиа', 'theseus-lab'); ?></a></li>
                 </ul>
                 <?php
             }
@@ -61,10 +61,15 @@ $header_tg = theseus_field('header_telegram', 'https://t.me/theseuslab');
                     </a>
                 <?php endif; ?>
             </div>
-            <a href="#contact" class="nav-cta" data-popup="contact"><?php theseus_field_e('header_cta_text', 'Рассчитать проект'); ?></a>
+            <?php if (function_exists('pll_the_languages')) : ?>
+                <div class="lang-switcher">
+                    <?php pll_the_languages(['show_flags' => 0, 'show_names' => 1, 'display_names_as' => 'slug', 'hide_current' => 1]); ?>
+                </div>
+            <?php endif; ?>
+            <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="nav-cta"><?php theseus_field_e('header_cta_text', esc_html__('Рассчитать проект', 'theseus-lab')); ?></a>
         </div>
 
-        <button class="nav-burger" aria-label="Меню" aria-expanded="false">
+        <button class="nav-burger" aria-label="<?php esc_attr_e('Меню', 'theseus-lab'); ?>" aria-expanded="false">
             <i class="ri-menu-3-line nav-burger-icon"></i>
             <i class="ri-close-line nav-burger-close" aria-hidden="true"></i>
         </button>
@@ -80,19 +85,24 @@ $header_tg = theseus_field('header_telegram', 'https://t.me/theseuslab');
             } else {
                 ?>
                 <ul class="nav-links">
-                    <li><a href="#directions">Услуги</a></li>
-                    <li><a href="#portfolio">Кейсы</a></li>
-                    <li><a href="#cases">Сценарии</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/computer-vision/')); ?>"><?php esc_html_e('Услуги', 'theseus-lab'); ?></a></li>
+                    <li><a href="<?php echo esc_url(home_url('/cases/')); ?>"><?php esc_html_e('Кейсы', 'theseus-lab'); ?></a></li>
+                    <li><a href="<?php echo esc_url(home_url('/media/')); ?>"><?php esc_html_e('Медиа', 'theseus-lab'); ?></a></li>
                 </ul>
                 <?php
             }
             ?>
+            <?php if (function_exists('pll_the_languages')) : ?>
+                <div class="lang-switcher lang-switcher--mobile">
+                    <?php pll_the_languages(['show_flags' => 0, 'show_names' => 1, 'display_names_as' => 'slug', 'hide_current' => 1]); ?>
+                </div>
+            <?php endif; ?>
             <?php if ($header_phone) : ?>
                 <a href="tel:<?php echo esc_attr(preg_replace('/\D/', '', $header_phone)); ?>" class="nav-phone nav-phone-mobile">
                     <?php echo esc_html($header_phone); ?>
                 </a>
             <?php endif; ?>
-            <a href="#contact" class="nav-cta nav-cta-mobile" data-popup="contact"><?php theseus_field_e('header_cta_text', 'Рассчитать проект'); ?></a>
+            <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="nav-cta nav-cta-mobile"><?php theseus_field_e('header_cta_text', esc_html__('Рассчитать проект', 'theseus-lab')); ?></a>
         </div>
     </nav>
 </header>

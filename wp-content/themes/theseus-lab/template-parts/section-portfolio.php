@@ -1,9 +1,9 @@
 <?php
 $portfolio_cases = [
-    ['industry' => 'Производство', 'title' => theseus_field('port1_title', 'Автоматизация контроля качества'), 'desc' => theseus_field('port1_desc', 'Ручной контроль занимал много времени и приводил к пропуску дефектов'), 'result' => '95%', 'result_label' => 'точность обнаружения дефектов', 'image' => theseus_field('port1_image', '')],
-    ['industry' => 'Логистика', 'title' => theseus_field('port2_title', 'Мониторинг безопасности склада'), 'desc' => theseus_field('port2_desc', 'Невозможность отслеживать все зоны и своевременно реагировать на инциденты'), 'result' => '80%', 'result_label' => 'сокращение инцидентов', 'image' => theseus_field('port2_image', '')],
-    ['industry' => 'Ритейл', 'title' => theseus_field('port3_title', 'Анализ поведения покупателей'), 'desc' => theseus_field('port3_desc', 'Отсутствие данных о движении покупателей и эффективности выкладки'), 'result' => '35%', 'result_label' => 'рост конверсии', 'image' => theseus_field('port3_image', '')],
-    ['industry' => 'Строительство', 'title' => theseus_field('port4_title', 'Контроль техники безопасности'), 'desc' => theseus_field('port4_desc', 'Сложность контроля использования СИЗ на большой стройплощадке'), 'result' => '90%', 'result_label' => 'соблюдение требований', 'image' => theseus_field('port4_image', '')],
+    ['industry' => __('Производство', 'theseus-lab'), 'title' => theseus_field('port1_title', __('Автоматизация контроля качества', 'theseus-lab')), 'desc' => theseus_field('port1_desc', __('Ручной контроль занимал много времени и приводил к пропуску дефектов', 'theseus-lab')), 'result' => '95%', 'result_label' => __('точность обнаружения дефектов', 'theseus-lab'), 'image' => theseus_field('port1_image', '')],
+    ['industry' => __('Логистика', 'theseus-lab'), 'title' => theseus_field('port2_title', __('Мониторинг безопасности склада', 'theseus-lab')), 'desc' => theseus_field('port2_desc', __('Невозможность отслеживать все зоны и своевременно реагировать на инциденты', 'theseus-lab')), 'result' => '80%', 'result_label' => __('сокращение инцидентов', 'theseus-lab'), 'image' => theseus_field('port2_image', '')],
+    ['industry' => __('Ритейл', 'theseus-lab'), 'title' => theseus_field('port3_title', __('Анализ поведения покупателей', 'theseus-lab')), 'desc' => theseus_field('port3_desc', __('Отсутствие данных о движении покупателей и эффективности выкладки', 'theseus-lab')), 'result' => '35%', 'result_label' => __('рост конверсии', 'theseus-lab'), 'image' => theseus_field('port3_image', '')],
+    ['industry' => __('Строительство', 'theseus-lab'), 'title' => theseus_field('port4_title', __('Контроль техники безопасности', 'theseus-lab')), 'desc' => theseus_field('port4_desc', __('Сложность контроля использования СИЗ на большой стройплощадке', 'theseus-lab')), 'result' => '90%', 'result_label' => __('соблюдение требований', 'theseus-lab'), 'image' => theseus_field('port4_image', '')],
 ];
 $port_placeholders = [
     'https://placehold.co/800x520/111111/333333?text=QA',
@@ -16,12 +16,12 @@ $port_placeholders = [
     <div class="container">
         <div class="portfolio-header reveal-item">
             <div>
-                <span class="section-label">Кейсы</span>
+                <span class="section-label"><?php esc_html_e('Кейсы', 'theseus-lab'); ?></span>
                 <h2 class="section-title">
-                    <?php theseus_field_e('portfolio_title', 'Реальные внедрения'); ?><br><span class="text-muted-30"><?php theseus_field_e('portfolio_title_accent', 'с измеримым результатом'); ?></span>
+                    <?php theseus_field_e('portfolio_title', esc_html__('Реальные внедрения', 'theseus-lab')); ?><br><span class="text-muted-30"><?php theseus_field_e('portfolio_title_accent', esc_html__('с измеримым результатом', 'theseus-lab')); ?></span>
                 </h2>
             </div>
-            <a href="#contact" class="btn btn-outline" data-popup="contact">Обсудить ваш проект <i class="ri-arrow-right-line"></i></a>
+            <a href="#contact" class="btn btn-outline" data-popup="contact"><?php esc_html_e('Обсудить ваш проект', 'theseus-lab'); ?> <i class="ri-arrow-right-line"></i></a>
         </div>
 
         <div class="portfolio-grid">

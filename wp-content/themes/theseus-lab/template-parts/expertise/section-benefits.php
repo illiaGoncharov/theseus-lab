@@ -1,9 +1,9 @@
 <?php
 $fallback = [
-    ['icon' => 'ri-arrow-up-line',             'metric' => '+38%', 'metric_label' => 'рост производительности', 'title' => 'Эффективность производства', 'description' => 'Автоматизация визуального контроля высвобождает сотрудников для задач с большей добавленной стоимостью.'],
-    ['icon' => 'ri-bug-line',                  'metric' => '−72%', 'metric_label' => 'снижение брака',          'title' => 'Качество продукции',          'description' => 'Нейросеть обнаруживает дефекты, незаметные человеческому глазу, до попадания продукта на следующий этап.'],
-    ['icon' => 'ri-shield-line',               'metric' => '−61%', 'metric_label' => 'инцидентов по ОТ',       'title' => 'Безопасность персонала',      'description' => 'Мгновенная реакция на нарушения снижает травматизм и потери от простоев, связанных с несчастными случаями.'],
-    ['icon' => 'ri-money-dollar-circle-line',  'metric' => '6–18', 'metric_label' => 'месяцев окупаемость',    'title' => 'ROI внедрения',               'description' => 'Экономия на ручном контроле и потерях от брака обеспечивает возврат инвестиций в течение одного-двух сезонов.'],
+    ['icon' => 'ri-arrow-up-line',             'metric' => '+38%', 'metric_label' => __('рост производительности', 'theseus-lab'), 'title' => __('Эффективность производства', 'theseus-lab'), 'description' => __('Автоматизация визуального контроля высвобождает сотрудников для задач с большей добавленной стоимостью.', 'theseus-lab')],
+    ['icon' => 'ri-bug-line',                  'metric' => '−72%', 'metric_label' => __('снижение брака', 'theseus-lab'),          'title' => __('Качество продукции', 'theseus-lab'),          'description' => __('Нейросеть обнаруживает дефекты, незаметные человеческому глазу, до попадания продукта на следующий этап.', 'theseus-lab')],
+    ['icon' => 'ri-shield-line',               'metric' => '−61%', 'metric_label' => __('инцидентов по ОТ', 'theseus-lab'),       'title' => __('Безопасность персонала', 'theseus-lab'),      'description' => __('Мгновенная реакция на нарушения снижает травматизм и потери от простоев, связанных с несчастными случаями.', 'theseus-lab')],
+    ['icon' => 'ri-money-dollar-circle-line',  'metric' => '6–18', 'metric_label' => __('месяцев окупаемость', 'theseus-lab'),    'title' => __('ROI внедрения', 'theseus-lab'),               'description' => __('Экономия на ручном контроле и потерях от брака обеспечивает возврат инвестиций в течение одного-двух сезонов.', 'theseus-lab')],
 ];
 
 $benefits = [];
@@ -23,12 +23,12 @@ if (empty($benefits)) {
     <div class="container">
         <div class="exp-benefits-header reveal-item">
             <div>
-                <span class="section-label">Эффект</span>
+                <span class="section-label"><?php esc_html_e('Эффект', 'theseus-lab'); ?></span>
                 <h2 class="section-title">
-                    Преимущества<br><span class="text-muted-30">для бизнеса</span>
+                    <?php esc_html_e('Преимущества', 'theseus-lab'); ?><br><span class="text-muted-30"><?php esc_html_e('для бизнеса', 'theseus-lab'); ?></span>
                 </h2>
             </div>
-            <p class="exp-benefits-desc">Измеримые результаты, подтверждённые реальными проектами</p>
+            <p class="exp-benefits-desc"><?php esc_html_e('Измеримые результаты, подтверждённые реальными проектами', 'theseus-lab'); ?></p>
         </div>
 
         <div class="exp-benefits-grid">
